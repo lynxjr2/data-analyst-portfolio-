@@ -1,0 +1,392 @@
+{
+  "overview": {
+    "transactions": 1500,
+    "completed_transactions": 1377,
+    "returned_transactions": 123,
+    "net_revenue_ngn": 37176500.0,
+    "gross_profit_ngn": 13729300.0,
+    "gross_margin": 0.3693,
+    "average_completed_order_ngn": 26998.18,
+    "return_rate": 0.082
+  },
+  "monthly": [
+    {
+      "month": "2025-01",
+      "transactions": 96,
+      "completed_transactions": 86,
+      "returned_transactions": 10,
+      "net_revenue_ngn": 2276075.0,
+      "gross_profit_ngn": 849775.0
+    },
+    {
+      "month": "2025-02",
+      "transactions": 102,
+      "completed_transactions": 91,
+      "returned_transactions": 11,
+      "net_revenue_ngn": 2522975.0,
+      "gross_profit_ngn": 931475.0
+    },
+    {
+      "month": "2025-03",
+      "transactions": 109,
+      "completed_transactions": 100,
+      "returned_transactions": 9,
+      "net_revenue_ngn": 2905775.0,
+      "gross_profit_ngn": 1052175.0
+    },
+    {
+      "month": "2025-04",
+      "transactions": 112,
+      "completed_transactions": 103,
+      "returned_transactions": 9,
+      "net_revenue_ngn": 3017325.0,
+      "gross_profit_ngn": 1103525.0
+    },
+    {
+      "month": "2025-05",
+      "transactions": 118,
+      "completed_transactions": 113,
+      "returned_transactions": 5,
+      "net_revenue_ngn": 3073900.0,
+      "gross_profit_ngn": 1156700.0
+    },
+    {
+      "month": "2025-06",
+      "transactions": 120,
+      "completed_transactions": 116,
+      "returned_transactions": 4,
+      "net_revenue_ngn": 3051975.0,
+      "gross_profit_ngn": 1135675.0
+    },
+    {
+      "month": "2025-07",
+      "transactions": 124,
+      "completed_transactions": 113,
+      "returned_transactions": 11,
+      "net_revenue_ngn": 2916600.0,
+      "gross_profit_ngn": 1061200.0
+    },
+    {
+      "month": "2025-08",
+      "transactions": 128,
+      "completed_transactions": 116,
+      "returned_transactions": 12,
+      "net_revenue_ngn": 2741550.0,
+      "gross_profit_ngn": 1030050.0
+    },
+    {
+      "month": "2025-09",
+      "transactions": 132,
+      "completed_transactions": 124,
+      "returned_transactions": 8,
+      "net_revenue_ngn": 3442025.0,
+      "gross_profit_ngn": 1245425.0
+    },
+    {
+      "month": "2025-10",
+      "transactions": 139,
+      "completed_transactions": 124,
+      "returned_transactions": 15,
+      "net_revenue_ngn": 3364150.0,
+      "gross_profit_ngn": 1212750.0
+    },
+    {
+      "month": "2025-11",
+      "transactions": 148,
+      "completed_transactions": 134,
+      "returned_transactions": 14,
+      "net_revenue_ngn": 3815300.0,
+      "gross_profit_ngn": 1444700.0
+    },
+    {
+      "month": "2025-12",
+      "transactions": 172,
+      "completed_transactions": 157,
+      "returned_transactions": 15,
+      "net_revenue_ngn": 4048850.0,
+      "gross_profit_ngn": 1505850.0
+    }
+  ],
+  "categories": [
+    {
+      "category": "Electronics",
+      "transactions": 446,
+      "net_revenue_ngn": 13014050.0,
+      "gross_profit_ngn": 4534550.0,
+      "gross_margin": 0.348435,
+      "return_rate": 0.067265
+    },
+    {
+      "category": "Fashion",
+      "transactions": 418,
+      "net_revenue_ngn": 11259550.0,
+      "gross_profit_ngn": 4145550.0,
+      "gross_margin": 0.368181,
+      "return_rate": 0.148325
+    },
+    {
+      "category": "Home",
+      "transactions": 263,
+      "net_revenue_ngn": 7715350.0,
+      "gross_profit_ngn": 2711350.0,
+      "gross_margin": 0.351423,
+      "return_rate": 0.060837
+    },
+    {
+      "category": "Beauty",
+      "transactions": 373,
+      "net_revenue_ngn": 5187550.0,
+      "gross_profit_ngn": 2337850.0,
+      "gross_margin": 0.450666,
+      "return_rate": 0.040214
+    }
+  ],
+  "cities": [
+    {
+      "city": "Lagos",
+      "transactions": 638,
+      "net_revenue_ngn": 16136725.0,
+      "gross_profit_ngn": 5941625.0
+    },
+    {
+      "city": "Abuja",
+      "transactions": 354,
+      "net_revenue_ngn": 8456525.0,
+      "gross_profit_ngn": 3130525.0
+    },
+    {
+      "city": "Port Harcourt",
+      "transactions": 299,
+      "net_revenue_ngn": 6901325.0,
+      "gross_profit_ngn": 2577625.0
+    },
+    {
+      "city": "Kano",
+      "transactions": 191,
+      "net_revenue_ngn": 5252025.0,
+      "gross_profit_ngn": 1913925.0
+    },
+    {
+      "city": "Unknown",
+      "transactions": 18,
+      "net_revenue_ngn": 429900.0,
+      "gross_profit_ngn": 165600.0
+    }
+  ],
+  "products": [
+    {
+      "product": "Bluetooth speaker",
+      "category": "Electronics",
+      "transactions": 157,
+      "net_revenue_ngn": 6110000.0,
+      "gross_profit_ngn": 1996000.0,
+      "gross_margin": 0.326678
+    },
+    {
+      "product": "Sneakers",
+      "category": "Fashion",
+      "transactions": 152,
+      "net_revenue_ngn": 5531400.0,
+      "gross_profit_ngn": 1926400.0,
+      "gross_margin": 0.348266
+    },
+    {
+      "product": "Handbag",
+      "category": "Fashion",
+      "transactions": 123,
+      "net_revenue_ngn": 3955600.0,
+      "gross_profit_ngn": 1471600.0,
+      "gross_margin": 0.37203
+    },
+    {
+      "product": "Cookware set",
+      "category": "Home",
+      "transactions": 91,
+      "net_revenue_ngn": 4331250.0,
+      "gross_profit_ngn": 1451250.0,
+      "gross_margin": 0.335065
+    },
+    {
+      "product": "Perfume",
+      "category": "Beauty",
+      "transactions": 127,
+      "net_revenue_ngn": 3179000.0,
+      "gross_profit_ngn": 1424000.0,
+      "gross_margin": 0.44794
+    },
+    {
+      "product": "Headphones",
+      "category": "Electronics",
+      "transactions": 136,
+      "net_revenue_ngn": 3403800.0,
+      "gross_profit_ngn": 1356300.0,
+      "gross_margin": 0.398466
+    },
+    {
+      "product": "Power bank",
+      "category": "Electronics",
+      "transactions": 153,
+      "net_revenue_ngn": 3500250.0,
+      "gross_profit_ngn": 1182250.0,
+      "gross_margin": 0.337762
+    },
+    {
+      "product": "T-shirt",
+      "category": "Fashion",
+      "transactions": 143,
+      "net_revenue_ngn": 1772550.0,
+      "gross_profit_ngn": 747550.0,
+      "gross_margin": 0.421737
+    },
+    {
+      "product": "Bedsheet",
+      "category": "Home",
+      "transactions": 90,
+      "net_revenue_ngn": 1924300.0,
+      "gross_profit_ngn": 700300.0,
+      "gross_margin": 0.363925
+    },
+    {
+      "product": "Desk lamp",
+      "category": "Home",
+      "transactions": 82,
+      "net_revenue_ngn": 1459800.0,
+      "gross_profit_ngn": 559800.0,
+      "gross_margin": 0.383477
+    },
+    {
+      "product": "Moisturizer",
+      "category": "Beauty",
+      "transactions": 116,
+      "net_revenue_ngn": 1144325.0,
+      "gross_profit_ngn": 507325.0,
+      "gross_margin": 0.44334
+    },
+    {
+      "product": "Body wash",
+      "category": "Beauty",
+      "transactions": 130,
+      "net_revenue_ngn": 864225.0,
+      "gross_profit_ngn": 406525.0,
+      "gross_margin": 0.470393
+    }
+  ],
+  "growth": [
+    {
+      "month": "2025-01",
+      "net_revenue_ngn": 2276075.0,
+      "prior_revenue_ngn": null,
+      "month_on_month_growth": null
+    },
+    {
+      "month": "2025-02",
+      "net_revenue_ngn": 2522975.0,
+      "prior_revenue_ngn": 2276075.0,
+      "month_on_month_growth": 0.108476
+    },
+    {
+      "month": "2025-03",
+      "net_revenue_ngn": 2905775.0,
+      "prior_revenue_ngn": 2522975.0,
+      "month_on_month_growth": 0.151726
+    },
+    {
+      "month": "2025-04",
+      "net_revenue_ngn": 3017325.0,
+      "prior_revenue_ngn": 2905775.0,
+      "month_on_month_growth": 0.038389
+    },
+    {
+      "month": "2025-05",
+      "net_revenue_ngn": 3073900.0,
+      "prior_revenue_ngn": 3017325.0,
+      "month_on_month_growth": 0.01875
+    },
+    {
+      "month": "2025-06",
+      "net_revenue_ngn": 3051975.0,
+      "prior_revenue_ngn": 3073900.0,
+      "month_on_month_growth": -0.007133
+    },
+    {
+      "month": "2025-07",
+      "net_revenue_ngn": 2916600.0,
+      "prior_revenue_ngn": 3051975.0,
+      "month_on_month_growth": -0.044357
+    },
+    {
+      "month": "2025-08",
+      "net_revenue_ngn": 2741550.0,
+      "prior_revenue_ngn": 2916600.0,
+      "month_on_month_growth": -0.060019
+    },
+    {
+      "month": "2025-09",
+      "net_revenue_ngn": 3442025.0,
+      "prior_revenue_ngn": 2741550.0,
+      "month_on_month_growth": 0.255503
+    },
+    {
+      "month": "2025-10",
+      "net_revenue_ngn": 3364150.0,
+      "prior_revenue_ngn": 3442025.0,
+      "month_on_month_growth": -0.022625
+    },
+    {
+      "month": "2025-11",
+      "net_revenue_ngn": 3815300.0,
+      "prior_revenue_ngn": 3364150.0,
+      "month_on_month_growth": 0.134105
+    },
+    {
+      "month": "2025-12",
+      "net_revenue_ngn": 4048850.0,
+      "prior_revenue_ngn": 3815300.0,
+      "month_on_month_growth": 0.061214
+    }
+  ],
+  "channels": [
+    {
+      "channel": "Online",
+      "transactions": 862,
+      "net_revenue_ngn": 21523500.0,
+      "gross_profit_ngn": 7975500.0,
+      "return_rate": 0.084687
+    },
+    {
+      "channel": "In-store",
+      "transactions": 638,
+      "net_revenue_ngn": 15653000.0,
+      "gross_profit_ngn": 5753800.0,
+      "return_rate": 0.07837
+    }
+  ],
+  "quality": [
+    {
+      "measure": "Raw source rows",
+      "rows": 1544
+    },
+    {
+      "measure": "Duplicate business records",
+      "rows": 24
+    },
+    {
+      "measure": "Rejected unique transactions",
+      "rows": 20
+    },
+    {
+      "measure": "Clean transactions",
+      "rows": 1500
+    },
+    {
+      "measure": "Blank discounts filled on valid rows",
+      "rows": 36
+    },
+    {
+      "measure": "Unknown cities retained",
+      "rows": 18
+    }
+  ],
+  "data_source": "Simulated retail transactions, seed 4517.",
+  "period": "2025-01-01 to 2025-12-31"
+}

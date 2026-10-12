@@ -1,0 +1,7 @@
+measure,rows
+Raw source rows,1544
+Duplicate business records,24
+Rejected unique transactions,20
+Clean transactions,1500
+Blank discounts filled on valid rows,36
+Unknown cities retained,18
