@@ -1,0 +1,1501 @@
+source_row,transaction_id,order_date,city,category,product,channel,quantity,unit_price_ngn,unit_cost_ngn,discount_rate,status,gross_sales_ngn,net_revenue_ngn,cogs_ngn,gross_profit_ngn
+1,TXN-00001,2025-01-03,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+2,TXN-00002,2025-01-04,Abuja,Fashion,T-shirt,Online,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+3,TXN-00003,2025-01-29,Lagos,Home,Cookware set,In-store,2,35000.0,22500.0,0.1,Completed,70000.0,63000.0,45000.0,18000.0
+4,TXN-00004,2025-01-09,Abuja,Electronics,Power bank,Online,3,15000.0,9500.0,0.0,Completed,45000.0,45000.0,28500.0,16500.0
+5,TXN-00005,2025-01-21,Port Harcourt,Home,Bedsheet,Online,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+6,TXN-00006,2025-01-16,Kano,Fashion,Handbag,Online,1,22000.0,13500.0,0.05,Completed,22000.0,20900.0,13500.0,7400.0
+7,TXN-00007,2025-01-07,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+8,TXN-00008,2025-01-20,Lagos,Electronics,Power bank,In-store,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+9,TXN-00009,2025-01-12,Abuja,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+10,TXN-00010,2025-01-18,Lagos,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+11,TXN-00011,2025-01-19,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.1,Completed,6500.0,5850.0,3500.0,2350.0
+12,TXN-00012,2025-01-11,Port Harcourt,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+13,TXN-00013,2025-01-26,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+14,TXN-00014,2025-01-16,Port Harcourt,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+15,TXN-00015,2025-01-30,Kano,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+16,TXN-00016,2025-01-14,Port Harcourt,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+17,TXN-00017,2025-01-11,Kano,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+18,TXN-00018,2025-01-07,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+19,TXN-00019,2025-01-03,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+20,TXN-00020,2025-01-01,Lagos,Fashion,Handbag,Online,4,22000.0,13500.0,0.0,Completed,88000.0,88000.0,54000.0,34000.0
+21,TXN-00021,2025-01-22,Lagos,Home,Bedsheet,Online,3,14000.0,8500.0,0.0,Completed,42000.0,42000.0,25500.0,16500.0
+22,TXN-00022,2025-01-25,Lagos,Beauty,Body wash,Online,3,4500.0,2300.0,0.0,Completed,13500.0,13500.0,6900.0,6600.0
+23,TXN-00023,2025-01-14,Abuja,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Returned,56000.0,0,0,0
+24,TXN-00024,2025-01-30,Port Harcourt,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+25,TXN-00025,2025-01-14,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Returned,18000.0,0,0,0
+26,TXN-00026,2025-01-29,Lagos,Electronics,Power bank,Online,4,15000.0,9500.0,0.1,Completed,60000.0,54000.0,38000.0,16000.0
+27,TXN-00027,2025-01-19,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+28,TXN-00028,2025-01-17,Lagos,Electronics,Headphones,In-store,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+29,TXN-00029,2025-01-03,Abuja,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+30,TXN-00030,2025-01-23,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+31,TXN-00031,2025-01-26,Port Harcourt,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+32,TXN-00032,2025-01-10,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+33,TXN-00033,2025-01-27,Port Harcourt,Fashion,Handbag,Online,2,22000.0,13500.0,0.1,Returned,44000.0,0,0,0
+34,TXN-00034,2025-01-01,Abuja,Electronics,Power bank,Online,3,15000.0,9500.0,0,Completed,45000.0,45000.0,28500.0,16500.0
+35,TXN-00035,2025-01-14,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.05,Completed,12000.0,11400.0,7200.0,4200.0
+36,TXN-00036,2025-01-08,Abuja,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+37,TXN-00037,2025-01-09,Kano,Home,Bedsheet,Online,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+38,TXN-00038,2025-01-19,Port Harcourt,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+39,TXN-00039,2025-01-09,Port Harcourt,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+40,TXN-00040,2025-01-20,Lagos,Home,Cookware set,In-store,3,35000.0,22500.0,0.0,Completed,105000.0,105000.0,67500.0,37500.0
+41,TXN-00041,2025-01-28,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+42,TXN-00042,2025-01-12,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+43,TXN-00043,2025-01-13,Kano,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.1,Completed,6500.0,5850.0,3500.0,2350.0
+44,TXN-00044,2025-01-22,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+45,TXN-00045,2025-01-20,Kano,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+46,TXN-00046,2025-01-04,Kano,Fashion,Sneakers,Online,3,28000.0,17500.0,0.0,Completed,84000.0,84000.0,52500.0,31500.0
+47,TXN-00047,2025-01-05,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+48,TXN-00048,2025-01-22,Kano,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+49,TXN-00049,2025-01-22,Lagos,Fashion,Handbag,In-store,2,22000.0,13500.0,0.05,Completed,44000.0,41800.0,27000.0,14800.0
+50,TXN-00050,2025-01-09,Kano,Fashion,T-shirt,Online,3,9000.0,5000.0,0.0,Completed,27000.0,27000.0,15000.0,12000.0
+51,TXN-00051,2025-01-21,Lagos,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Returned,22000.0,0,0,0
+52,TXN-00052,2025-01-29,Abuja,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Returned,56000.0,0,0,0
+53,TXN-00053,2025-01-22,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+54,TXN-00054,2025-01-23,Lagos,Electronics,Headphones,In-store,3,18000.0,10500.0,0.0,Completed,54000.0,54000.0,31500.0,22500.0
+55,TXN-00055,2025-01-05,Kano,Electronics,Power bank,In-store,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+56,TXN-00056,2025-01-22,Kano,Beauty,Perfume,In-store,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+57,TXN-00057,2025-01-20,Abuja,Fashion,Handbag,Online,3,22000.0,13500.0,0.0,Returned,66000.0,0,0,0
+58,TXN-00058,2025-01-26,Port Harcourt,Fashion,T-shirt,In-store,4,9000.0,5000.0,0.05,Completed,36000.0,34200.0,20000.0,14200.0
+59,TXN-00059,2025-01-25,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+60,TXN-00060,2025-01-16,Port Harcourt,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+61,TXN-00061,2025-01-04,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+62,TXN-00062,2025-01-24,Port Harcourt,Fashion,Handbag,Online,2,22000.0,13500.0,0.05,Completed,44000.0,41800.0,27000.0,14800.0
+63,TXN-00063,2025-01-19,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+64,TXN-00064,2025-01-17,Abuja,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+65,TXN-00065,2025-01-28,Abuja,Home,Bedsheet,Online,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+66,TXN-00066,2025-01-26,Unknown,Home,Bedsheet,In-store,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+67,TXN-00067,2025-01-23,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+68,TXN-00068,2025-01-27,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+69,TXN-00069,2025-01-11,Port Harcourt,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+70,TXN-00070,2025-01-22,Abuja,Electronics,Power bank,In-store,2,15000.0,9500.0,0.05,Completed,30000.0,28500.0,19000.0,9500.0
+71,TXN-00071,2025-01-22,Lagos,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+72,TXN-00072,2025-01-24,Port Harcourt,Electronics,Power bank,Online,4,15000.0,9500.0,0.15,Completed,60000.0,51000.0,38000.0,13000.0
+73,TXN-00073,2025-01-30,Lagos,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+74,TXN-00074,2025-01-09,Lagos,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+75,TXN-00075,2025-01-14,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+76,TXN-00076,2025-01-12,Lagos,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+77,TXN-00077,2025-01-19,Port Harcourt,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+78,TXN-00078,2025-01-13,Abuja,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+79,TXN-00079,2025-01-16,Port Harcourt,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0,Completed,6500.0,6500.0,3500.0,3000.0
+80,TXN-00080,2025-01-23,Port Harcourt,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+81,TXN-00081,2025-01-30,Abuja,Electronics,Headphones,Online,2,18000.0,10500.0,0.05,Completed,36000.0,34200.0,21000.0,13200.0
+82,TXN-00082,2025-01-20,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+83,TXN-00083,2025-01-20,Port Harcourt,Fashion,T-shirt,Online,2,9000.0,5000.0,0,Completed,18000.0,18000.0,10000.0,8000.0
+84,TXN-00084,2025-01-05,Port Harcourt,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+85,TXN-00085,2025-01-27,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+86,TXN-00086,2025-01-18,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Returned,22000.0,0,0,0
+87,TXN-00087,2025-01-30,Lagos,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+88,TXN-00088,2025-01-02,Lagos,Home,Desk lamp,In-store,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+89,TXN-00089,2025-01-03,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+90,TXN-00090,2025-01-21,Lagos,Electronics,Power bank,In-store,4,15000.0,9500.0,0.0,Completed,60000.0,60000.0,38000.0,22000.0
+91,TXN-00091,2025-01-21,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+92,TXN-00092,2025-01-04,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Returned,17000.0,0,0,0
+93,TXN-00093,2025-01-27,Lagos,Home,Bedsheet,In-store,2,14000.0,8500.0,0.1,Completed,28000.0,25200.0,17000.0,8200.0
+94,TXN-00094,2025-01-06,Lagos,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.05,Returned,56000.0,0,0,0
+95,TXN-00095,2025-01-25,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Returned,15000.0,0,0,0
+96,TXN-00096,2025-01-25,Kano,Electronics,Power bank,Online,1,15000.0,9500.0,0.15,Completed,15000.0,12750.0,9500.0,3250.0
+97,TXN-00097,2025-02-25,Lagos,Home,Desk lamp,In-store,2,12000.0,7200.0,0.05,Completed,24000.0,22800.0,14400.0,8400.0
+98,TXN-00098,2025-02-01,Lagos,Fashion,Sneakers,Online,3,28000.0,17500.0,0.0,Completed,84000.0,84000.0,52500.0,31500.0
+99,TXN-00099,2025-02-06,Lagos,Fashion,Handbag,In-store,1,22000.0,13500.0,0.05,Completed,22000.0,20900.0,13500.0,7400.0
+100,TXN-00100,2025-02-22,Kano,Fashion,Handbag,Online,3,22000.0,13500.0,0.0,Completed,66000.0,66000.0,40500.0,25500.0
+101,TXN-00101,2025-02-21,Abuja,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+102,TXN-00102,2025-02-16,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0,Returned,52000.0,0,0,0
+103,TXN-00103,2025-02-14,Abuja,Beauty,Body wash,Online,3,4500.0,2300.0,0.0,Completed,13500.0,13500.0,6900.0,6600.0
+104,TXN-00104,2025-02-11,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+105,TXN-00105,2025-02-15,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+106,TXN-00106,2025-02-25,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+107,TXN-00107,2025-02-27,Abuja,Electronics,Power bank,In-store,2,15000.0,9500.0,0.1,Completed,30000.0,27000.0,19000.0,8000.0
+108,TXN-00108,2025-02-12,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+109,TXN-00109,2025-02-27,Lagos,Beauty,Moisturizer,Online,4,6500.0,3500.0,0.05,Completed,26000.0,24700.0,14000.0,10700.0
+110,TXN-00110,2025-02-04,Port Harcourt,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+111,TXN-00111,2025-02-23,Lagos,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+112,TXN-00112,2025-02-14,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+113,TXN-00113,2025-02-03,Port Harcourt,Fashion,Sneakers,Online,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+114,TXN-00114,2025-02-11,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+115,TXN-00115,2025-02-14,Abuja,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Returned,30000.0,0,0,0
+116,TXN-00116,2025-02-01,Lagos,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Returned,22000.0,0,0,0
+117,TXN-00117,2025-02-26,Port Harcourt,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+118,TXN-00118,2025-02-18,Port Harcourt,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+119,TXN-00119,2025-02-10,Kano,Fashion,T-shirt,Online,2,9000.0,5000.0,0.1,Completed,18000.0,16200.0,10000.0,6200.0
+120,TXN-00120,2025-02-20,Abuja,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+121,TXN-00121,2025-02-28,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+122,TXN-00122,2025-02-07,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.1,Completed,18000.0,16200.0,10000.0,6200.0
+123,TXN-00123,2025-02-25,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.15,Completed,28000.0,23800.0,17500.0,6300.0
+124,TXN-00124,2025-02-24,Lagos,Electronics,Power bank,Online,3,15000.0,9500.0,0.05,Returned,45000.0,0,0,0
+125,TXN-00125,2025-02-11,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+126,TXN-00126,2025-02-16,Port Harcourt,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Returned,28000.0,0,0,0
+127,TXN-00127,2025-02-12,Lagos,Electronics,Power bank,In-store,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+128,TXN-00128,2025-02-07,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+129,TXN-00129,2025-02-04,Lagos,Fashion,Sneakers,In-store,3,28000.0,17500.0,0.1,Completed,84000.0,75600.0,52500.0,23100.0
+130,TXN-00130,2025-02-11,Lagos,Fashion,T-shirt,Online,3,9000.0,5000.0,0.0,Completed,27000.0,27000.0,15000.0,12000.0
+131,TXN-00131,2025-02-09,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.15,Completed,18000.0,15300.0,10000.0,5300.0
+132,TXN-00132,2025-02-07,Abuja,Electronics,Power bank,Online,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+133,TXN-00133,2025-02-22,Abuja,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+134,TXN-00134,2025-02-23,Kano,Fashion,Sneakers,Online,3,28000.0,17500.0,0.0,Completed,84000.0,84000.0,52500.0,31500.0
+135,TXN-00135,2025-02-11,Kano,Home,Bedsheet,Online,2,14000.0,8500.0,0.1,Completed,28000.0,25200.0,17000.0,8200.0
+136,TXN-00136,2025-02-06,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+137,TXN-00137,2025-02-17,Lagos,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+138,TXN-00138,2025-02-21,Kano,Home,Cookware set,Online,3,35000.0,22500.0,0.0,Completed,105000.0,105000.0,67500.0,37500.0
+139,TXN-00139,2025-02-03,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+140,TXN-00140,2025-02-27,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+141,TXN-00141,2025-02-14,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+142,TXN-00142,2025-02-08,Kano,Beauty,Body wash,In-store,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+143,TXN-00143,2025-02-03,Lagos,Home,Desk lamp,In-store,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+144,TXN-00144,2025-02-03,Lagos,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+145,TXN-00145,2025-02-27,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+146,TXN-00146,2025-02-06,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+147,TXN-00147,2025-02-14,Lagos,Beauty,Body wash,Online,3,4500.0,2300.0,0.0,Completed,13500.0,13500.0,6900.0,6600.0
+148,TXN-00148,2025-02-28,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+149,TXN-00149,2025-02-16,Lagos,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.1,Completed,18000.0,16200.0,10000.0,6200.0
+150,TXN-00150,2025-02-03,Abuja,Fashion,Handbag,In-store,1,22000.0,13500.0,0.15,Completed,22000.0,18700.0,13500.0,5200.0
+151,TXN-00151,2025-02-28,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.05,Completed,12000.0,11400.0,7200.0,4200.0
+152,TXN-00152,2025-02-05,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+153,TXN-00153,2025-02-06,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+154,TXN-00154,2025-02-09,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+155,TXN-00155,2025-02-24,Lagos,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Returned,56000.0,0,0,0
+156,TXN-00156,2025-02-10,Lagos,Beauty,Perfume,In-store,2,17000.0,9000.0,0.1,Completed,34000.0,30600.0,18000.0,12600.0
+157,TXN-00157,2025-02-07,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+158,TXN-00158,2025-02-07,Abuja,Electronics,Headphones,In-store,3,18000.0,10500.0,0.0,Completed,54000.0,54000.0,31500.0,22500.0
+159,TXN-00159,2025-02-01,Lagos,Home,Cookware set,Online,2,35000.0,22500.0,0.05,Completed,70000.0,66500.0,45000.0,21500.0
+160,TXN-00160,2025-02-19,Abuja,Electronics,Headphones,Online,3,18000.0,10500.0,0.1,Completed,54000.0,48600.0,31500.0,17100.0
+161,TXN-00161,2025-02-27,Abuja,Fashion,Handbag,Online,3,22000.0,13500.0,0.0,Completed,66000.0,66000.0,40500.0,25500.0
+162,TXN-00162,2025-02-18,Port Harcourt,Electronics,Power bank,In-store,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+163,TXN-00163,2025-02-11,Lagos,Beauty,Body wash,Online,4,4500.0,2300.0,0.0,Completed,18000.0,18000.0,9200.0,8800.0
+164,TXN-00164,2025-02-08,Port Harcourt,Home,Cookware set,In-store,1,35000.0,22500.0,0.1,Completed,35000.0,31500.0,22500.0,9000.0
+165,TXN-00165,2025-02-10,Port Harcourt,Home,Bedsheet,In-store,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+166,TXN-00166,2025-02-23,Lagos,Fashion,T-shirt,In-store,3,9000.0,5000.0,0.1,Returned,27000.0,0,0,0
+167,TXN-00167,2025-02-09,Port Harcourt,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Returned,28000.0,0,0,0
+168,TXN-00168,2025-02-25,Lagos,Electronics,Bluetooth speaker,In-store,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+169,TXN-00169,2025-02-03,Abuja,Beauty,Perfume,In-store,2,17000.0,9000.0,0.05,Completed,34000.0,32300.0,18000.0,14300.0
+170,TXN-00170,2025-02-05,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+171,TXN-00171,2025-02-16,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+172,TXN-00172,2025-02-09,Lagos,Home,Bedsheet,Online,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+173,TXN-00173,2025-02-01,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.1,Completed,12000.0,10800.0,7200.0,3600.0
+174,TXN-00174,2025-02-24,Kano,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+175,TXN-00175,2025-02-04,Port Harcourt,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+176,TXN-00176,2025-02-13,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.1,Completed,9000.0,8100.0,5000.0,3100.0
+177,TXN-00177,2025-02-12,Kano,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+178,TXN-00178,2025-02-09,Lagos,Beauty,Body wash,Online,2,4500.0,2300.0,0.05,Completed,9000.0,8550.0,4600.0,3950.0
+179,TXN-00179,2025-02-24,Abuja,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+180,TXN-00180,2025-02-08,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+181,TXN-00181,2025-02-17,Abuja,Fashion,Sneakers,Online,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+182,TXN-00182,2025-02-09,Kano,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+183,TXN-00183,2025-02-03,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.15,Completed,26000.0,22100.0,17000.0,5100.0
+184,TXN-00184,2025-02-18,Kano,Fashion,T-shirt,In-store,3,9000.0,5000.0,0,Completed,27000.0,27000.0,15000.0,12000.0
+185,TXN-00185,2025-02-03,Lagos,Electronics,Headphones,In-store,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+186,TXN-00186,2025-02-07,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+187,TXN-00187,2025-02-14,Kano,Beauty,Body wash,Online,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+188,TXN-00188,2025-02-15,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Returned,15000.0,0,0,0
+189,TXN-00189,2025-02-03,Lagos,Fashion,T-shirt,Online,3,9000.0,5000.0,0.0,Completed,27000.0,27000.0,15000.0,12000.0
+190,TXN-00190,2025-02-14,Kano,Fashion,T-shirt,Online,2,9000.0,5000.0,0.1,Completed,18000.0,16200.0,10000.0,6200.0
+191,TXN-00191,2025-02-08,Lagos,Fashion,T-shirt,Online,3,9000.0,5000.0,0.1,Returned,27000.0,0,0,0
+192,TXN-00192,2025-02-08,Port Harcourt,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+193,TXN-00193,2025-02-15,Lagos,Fashion,Handbag,Online,2,22000.0,13500.0,0.1,Returned,44000.0,0,0,0
+194,TXN-00194,2025-02-02,Kano,Fashion,T-shirt,In-store,3,9000.0,5000.0,0.1,Completed,27000.0,24300.0,15000.0,9300.0
+195,TXN-00195,2025-02-16,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0,Completed,26000.0,26000.0,17000.0,9000.0
+196,TXN-00196,2025-02-28,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+197,TXN-00197,2025-02-02,Abuja,Home,Bedsheet,Online,2,14000.0,8500.0,0.1,Completed,28000.0,25200.0,17000.0,8200.0
+198,TXN-00198,2025-02-28,Abuja,Home,Desk lamp,Online,1,12000.0,7200.0,0.05,Completed,12000.0,11400.0,7200.0,4200.0
+199,TXN-00199,2025-03-13,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+200,TXN-00200,2025-03-05,Abuja,Home,Bedsheet,In-store,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+201,TXN-00201,2025-03-30,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+202,TXN-00202,2025-03-28,Lagos,Electronics,Bluetooth speaker,In-store,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+203,TXN-00203,2025-03-14,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Returned,6500.0,0,0,0
+204,TXN-00204,2025-03-28,Lagos,Home,Cookware set,Online,2,35000.0,22500.0,0.1,Completed,70000.0,63000.0,45000.0,18000.0
+205,TXN-00205,2025-03-31,Lagos,Fashion,Sneakers,Online,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+206,TXN-00206,2025-03-11,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+207,TXN-00207,2025-03-25,Unknown,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+208,TXN-00208,2025-03-09,Abuja,Home,Desk lamp,Online,2,12000.0,7200.0,0,Completed,24000.0,24000.0,14400.0,9600.0
+209,TXN-00209,2025-03-30,Abuja,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+210,TXN-00210,2025-03-20,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+211,TXN-00211,2025-03-11,Kano,Electronics,Power bank,In-store,3,15000.0,9500.0,0.05,Completed,45000.0,42750.0,28500.0,14250.0
+212,TXN-00212,2025-03-26,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+213,TXN-00213,2025-03-27,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+214,TXN-00214,2025-03-05,Port Harcourt,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+215,TXN-00215,2025-03-18,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+216,TXN-00216,2025-03-16,Port Harcourt,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+217,TXN-00217,2025-03-31,Lagos,Beauty,Body wash,Online,3,4500.0,2300.0,0.15,Completed,13500.0,11475.0,6900.0,4575.0
+218,TXN-00218,2025-03-21,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+219,TXN-00219,2025-03-18,Lagos,Electronics,Power bank,In-store,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+220,TXN-00220,2025-03-03,Port Harcourt,Electronics,Headphones,In-store,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+221,TXN-00221,2025-03-31,Lagos,Home,Bedsheet,Online,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+222,TXN-00222,2025-03-11,Abuja,Electronics,Bluetooth speaker,In-store,3,26000.0,17000.0,0,Completed,78000.0,78000.0,51000.0,27000.0
+223,TXN-00223,2025-03-29,Port Harcourt,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+224,TXN-00224,2025-03-16,Abuja,Home,Bedsheet,In-store,2,14000.0,8500.0,0.05,Completed,28000.0,26600.0,17000.0,9600.0
+225,TXN-00225,2025-03-14,Lagos,Beauty,Perfume,In-store,3,17000.0,9000.0,0.0,Returned,51000.0,0,0,0
+226,TXN-00226,2025-03-08,Kano,Beauty,Perfume,In-store,3,17000.0,9000.0,0.0,Completed,51000.0,51000.0,27000.0,24000.0
+227,TXN-00227,2025-03-20,Abuja,Beauty,Perfume,Online,3,17000.0,9000.0,0.0,Returned,51000.0,0,0,0
+228,TXN-00228,2025-03-05,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+229,TXN-00229,2025-03-17,Port Harcourt,Beauty,Body wash,In-store,2,4500.0,2300.0,0.1,Completed,9000.0,8100.0,4600.0,3500.0
+230,TXN-00230,2025-03-22,Abuja,Fashion,T-shirt,Online,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+231,TXN-00231,2025-03-04,Kano,Home,Bedsheet,In-store,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+232,TXN-00232,2025-03-28,Port Harcourt,Home,Bedsheet,Online,2,14000.0,8500.0,0.1,Completed,28000.0,25200.0,17000.0,8200.0
+233,TXN-00233,2025-03-28,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+234,TXN-00234,2025-03-11,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+235,TXN-00235,2025-03-04,Port Harcourt,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+236,TXN-00236,2025-03-29,Port Harcourt,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+237,TXN-00237,2025-03-27,Abuja,Fashion,Handbag,In-store,4,22000.0,13500.0,0.05,Completed,88000.0,83600.0,54000.0,29600.0
+238,TXN-00238,2025-03-20,Abuja,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+239,TXN-00239,2025-03-22,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.1,Completed,6500.0,5850.0,3500.0,2350.0
+240,TXN-00240,2025-03-09,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+241,TXN-00241,2025-03-18,Abuja,Fashion,T-shirt,Online,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+242,TXN-00242,2025-03-06,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+243,TXN-00243,2025-03-01,Lagos,Fashion,Sneakers,Online,3,28000.0,17500.0,0.0,Returned,84000.0,0,0,0
+244,TXN-00244,2025-03-10,Kano,Home,Bedsheet,Online,1,14000.0,8500.0,0.15,Completed,14000.0,11900.0,8500.0,3400.0
+245,TXN-00245,2025-03-10,Port Harcourt,Beauty,Perfume,In-store,3,17000.0,9000.0,0.15,Completed,51000.0,43350.0,27000.0,16350.0
+246,TXN-00246,2025-03-21,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+247,TXN-00247,2025-03-13,Unknown,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Returned,15000.0,0,0,0
+248,TXN-00248,2025-03-31,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.15,Completed,28000.0,23800.0,17500.0,6300.0
+249,TXN-00249,2025-03-23,Kano,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Returned,26000.0,0,0,0
+250,TXN-00250,2025-03-30,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+251,TXN-00251,2025-03-27,Kano,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.1,Completed,6500.0,5850.0,3500.0,2350.0
+252,TXN-00252,2025-03-07,Kano,Home,Cookware set,In-store,3,35000.0,22500.0,0.15,Completed,105000.0,89250.0,67500.0,21750.0
+253,TXN-00253,2025-03-22,Port Harcourt,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+254,TXN-00254,2025-03-05,Lagos,Fashion,Sneakers,Online,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+255,TXN-00255,2025-03-01,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+256,TXN-00256,2025-03-23,Lagos,Electronics,Headphones,Online,2,18000.0,10500.0,0.05,Returned,36000.0,0,0,0
+257,TXN-00257,2025-03-18,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+258,TXN-00258,2025-03-10,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.15,Completed,35000.0,29750.0,22500.0,7250.0
+259,TXN-00259,2025-03-27,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+260,TXN-00260,2025-03-31,Unknown,Electronics,Headphones,Online,3,18000.0,10500.0,0.0,Completed,54000.0,54000.0,31500.0,22500.0
+261,TXN-00261,2025-03-25,Kano,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+262,TXN-00262,2025-03-19,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+263,TXN-00263,2025-03-31,Lagos,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+264,TXN-00264,2025-03-30,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+265,TXN-00265,2025-03-22,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+266,TXN-00266,2025-03-01,Kano,Fashion,Handbag,In-store,1,22000.0,13500.0,0.05,Completed,22000.0,20900.0,13500.0,7400.0
+267,TXN-00267,2025-03-24,Kano,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+268,TXN-00268,2025-03-27,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.1,Returned,9000.0,0,0,0
+269,TXN-00269,2025-03-19,Port Harcourt,Fashion,Handbag,In-store,1,22000.0,13500.0,0.05,Completed,22000.0,20900.0,13500.0,7400.0
+270,TXN-00270,2025-03-17,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+271,TXN-00271,2025-03-29,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+272,TXN-00272,2025-03-29,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+273,TXN-00273,2025-03-16,Abuja,Home,Desk lamp,In-store,3,12000.0,7200.0,0.1,Completed,36000.0,32400.0,21600.0,10800.0
+274,TXN-00274,2025-03-27,Kano,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.15,Completed,9000.0,7650.0,5000.0,2650.0
+275,TXN-00275,2025-03-17,Abuja,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+276,TXN-00276,2025-03-07,Kano,Home,Desk lamp,Online,2,12000.0,7200.0,0.1,Completed,24000.0,21600.0,14400.0,7200.0
+277,TXN-00277,2025-03-14,Port Harcourt,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+278,TXN-00278,2025-03-18,Port Harcourt,Home,Bedsheet,In-store,4,14000.0,8500.0,0.05,Completed,56000.0,53200.0,34000.0,19200.0
+279,TXN-00279,2025-03-21,Port Harcourt,Beauty,Body wash,Online,2,4500.0,2300.0,0.1,Completed,9000.0,8100.0,4600.0,3500.0
+280,TXN-00280,2025-03-16,Abuja,Beauty,Moisturizer,In-store,3,6500.0,3500.0,0.05,Completed,19500.0,18525.0,10500.0,8025.0
+281,TXN-00281,2025-03-22,Abuja,Home,Bedsheet,Online,2,14000.0,8500.0,0.05,Completed,28000.0,26600.0,17000.0,9600.0
+282,TXN-00282,2025-03-07,Port Harcourt,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+283,TXN-00283,2025-03-22,Lagos,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+284,TXN-00284,2025-03-20,Lagos,Fashion,Handbag,Online,3,22000.0,13500.0,0.05,Completed,66000.0,62700.0,40500.0,22200.0
+285,TXN-00285,2025-03-29,Abuja,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.05,Completed,13000.0,12350.0,7000.0,5350.0
+286,TXN-00286,2025-03-09,Lagos,Home,Bedsheet,In-store,2,14000.0,8500.0,0.05,Completed,28000.0,26600.0,17000.0,9600.0
+287,TXN-00287,2025-03-17,Lagos,Fashion,Handbag,In-store,2,22000.0,13500.0,0.15,Returned,44000.0,0,0,0
+288,TXN-00288,2025-03-04,Kano,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+289,TXN-00289,2025-03-16,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+290,TXN-00290,2025-03-26,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+291,TXN-00291,2025-03-14,Lagos,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+292,TXN-00292,2025-03-02,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.1,Completed,4500.0,4050.0,2300.0,1750.0
+293,TXN-00293,2025-03-07,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+294,TXN-00294,2025-03-03,Lagos,Home,Desk lamp,Online,2,12000.0,7200.0,0.1,Completed,24000.0,21600.0,14400.0,7200.0
+295,TXN-00295,2025-03-19,Port Harcourt,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+296,TXN-00296,2025-03-06,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.1,Completed,9000.0,8100.0,5000.0,3100.0
+297,TXN-00297,2025-03-08,Kano,Home,Cookware set,In-store,1,35000.0,22500.0,0.1,Completed,35000.0,31500.0,22500.0,9000.0
+298,TXN-00298,2025-03-03,Lagos,Beauty,Perfume,Online,3,17000.0,9000.0,0.1,Completed,51000.0,45900.0,27000.0,18900.0
+299,TXN-00299,2025-03-16,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+300,TXN-00300,2025-03-10,Lagos,Home,Desk lamp,In-store,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+301,TXN-00301,2025-03-23,Abuja,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+302,TXN-00302,2025-03-06,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.1,Completed,52000.0,46800.0,34000.0,12800.0
+303,TXN-00303,2025-03-14,Lagos,Home,Cookware set,Online,3,35000.0,22500.0,0.05,Completed,105000.0,99750.0,67500.0,32250.0
+304,TXN-00304,2025-03-14,Lagos,Fashion,Handbag,Online,3,22000.0,13500.0,0.0,Completed,66000.0,66000.0,40500.0,25500.0
+305,TXN-00305,2025-03-23,Abuja,Electronics,Power bank,In-store,2,15000.0,9500.0,0.15,Completed,30000.0,25500.0,19000.0,6500.0
+306,TXN-00306,2025-03-21,Abuja,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+307,TXN-00307,2025-03-13,Kano,Beauty,Perfume,Online,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+308,TXN-00308,2025-04-19,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+309,TXN-00309,2025-04-06,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.15,Completed,14000.0,11900.0,8500.0,3400.0
+310,TXN-00310,2025-04-17,Abuja,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Returned,44000.0,0,0,0
+311,TXN-00311,2025-04-12,Lagos,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.1,Completed,13000.0,11700.0,7000.0,4700.0
+312,TXN-00312,2025-04-30,Lagos,Electronics,Headphones,In-store,3,18000.0,10500.0,0.0,Completed,54000.0,54000.0,31500.0,22500.0
+313,TXN-00313,2025-04-26,Lagos,Beauty,Moisturizer,Online,4,6500.0,3500.0,0.05,Completed,26000.0,24700.0,14000.0,10700.0
+314,TXN-00314,2025-04-01,Port Harcourt,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+315,TXN-00315,2025-04-04,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+316,TXN-00316,2025-04-14,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.1,Completed,22000.0,19800.0,13500.0,6300.0
+317,TXN-00317,2025-04-14,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Returned,9000.0,0,0,0
+318,TXN-00318,2025-04-24,Port Harcourt,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+319,TXN-00319,2025-04-04,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.1,Completed,9000.0,8100.0,5000.0,3100.0
+320,TXN-00320,2025-04-02,Abuja,Fashion,Sneakers,In-store,4,28000.0,17500.0,0.05,Completed,112000.0,106400.0,70000.0,36400.0
+321,TXN-00321,2025-04-02,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+322,TXN-00322,2025-04-03,Lagos,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+323,TXN-00323,2025-04-11,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+324,TXN-00324,2025-04-14,Port Harcourt,Electronics,Power bank,In-store,3,15000.0,9500.0,0.1,Completed,45000.0,40500.0,28500.0,12000.0
+325,TXN-00325,2025-04-16,Port Harcourt,Home,Cookware set,In-store,1,35000.0,22500.0,0.15,Completed,35000.0,29750.0,22500.0,7250.0
+326,TXN-00326,2025-04-03,Port Harcourt,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+327,TXN-00327,2025-04-03,Kano,Fashion,Sneakers,Online,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+328,TXN-00328,2025-04-02,Abuja,Home,Bedsheet,Online,2,14000.0,8500.0,0.1,Returned,28000.0,0,0,0
+329,TXN-00329,2025-04-18,Kano,Beauty,Moisturizer,In-store,3,6500.0,3500.0,0.0,Completed,19500.0,19500.0,10500.0,9000.0
+330,TXN-00330,2025-04-11,Kano,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+331,TXN-00331,2025-04-03,Lagos,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.05,Completed,78000.0,74100.0,51000.0,23100.0
+332,TXN-00332,2025-04-05,Abuja,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+333,TXN-00333,2025-04-29,Port Harcourt,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+334,TXN-00334,2025-04-11,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+335,TXN-00335,2025-04-03,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+336,TXN-00336,2025-04-29,Port Harcourt,Beauty,Perfume,Online,3,17000.0,9000.0,0.0,Completed,51000.0,51000.0,27000.0,24000.0
+337,TXN-00337,2025-04-28,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+338,TXN-00338,2025-04-26,Lagos,Beauty,Body wash,Online,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+339,TXN-00339,2025-04-29,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+340,TXN-00340,2025-04-30,Lagos,Fashion,Sneakers,Online,3,28000.0,17500.0,0.1,Completed,84000.0,75600.0,52500.0,23100.0
+341,TXN-00341,2025-04-11,Kano,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+342,TXN-00342,2025-04-04,Abuja,Fashion,Handbag,Online,3,22000.0,13500.0,0.1,Returned,66000.0,0,0,0
+343,TXN-00343,2025-04-13,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+344,TXN-00344,2025-04-18,Port Harcourt,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+345,TXN-00345,2025-04-24,Lagos,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+346,TXN-00346,2025-04-07,Lagos,Electronics,Power bank,In-store,1,15000.0,9500.0,0.05,Returned,15000.0,0,0,0
+347,TXN-00347,2025-04-09,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+348,TXN-00348,2025-04-01,Abuja,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+349,TXN-00349,2025-04-12,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+350,TXN-00350,2025-04-04,Kano,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.1,Completed,56000.0,50400.0,35000.0,15400.0
+351,TXN-00351,2025-04-15,Port Harcourt,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.1,Completed,18000.0,16200.0,10000.0,6200.0
+352,TXN-00352,2025-04-25,Abuja,Beauty,Body wash,In-store,3,4500.0,2300.0,0.0,Completed,13500.0,13500.0,6900.0,6600.0
+353,TXN-00353,2025-04-20,Lagos,Electronics,Headphones,Online,4,18000.0,10500.0,0.05,Completed,72000.0,68400.0,42000.0,26400.0
+354,TXN-00354,2025-04-06,Lagos,Electronics,Power bank,In-store,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+355,TXN-00355,2025-04-18,Port Harcourt,Electronics,Power bank,In-store,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+356,TXN-00356,2025-04-09,Kano,Fashion,Handbag,Online,1,22000.0,13500.0,0.05,Completed,22000.0,20900.0,13500.0,7400.0
+357,TXN-00357,2025-04-28,Abuja,Fashion,Sneakers,Online,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+358,TXN-00358,2025-04-18,Abuja,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+359,TXN-00359,2025-04-07,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+360,TXN-00360,2025-04-01,Kano,Electronics,Bluetooth speaker,Online,4,26000.0,17000.0,0.05,Completed,104000.0,98800.0,68000.0,30800.0
+361,TXN-00361,2025-04-17,Port Harcourt,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+362,TXN-00362,2025-04-12,Abuja,Home,Cookware set,In-store,4,35000.0,22500.0,0.0,Completed,140000.0,140000.0,90000.0,50000.0
+363,TXN-00363,2025-04-18,Kano,Fashion,T-shirt,Online,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+364,TXN-00364,2025-04-13,Port Harcourt,Fashion,T-shirt,Online,1,9000.0,5000.0,0.15,Completed,9000.0,7650.0,5000.0,2650.0
+365,TXN-00365,2025-04-26,Lagos,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.0,Returned,78000.0,0,0,0
+366,TXN-00366,2025-04-17,Port Harcourt,Electronics,Power bank,In-store,1,15000.0,9500.0,0.1,Returned,15000.0,0,0,0
+367,TXN-00367,2025-04-15,Abuja,Electronics,Power bank,In-store,3,15000.0,9500.0,0.0,Completed,45000.0,45000.0,28500.0,16500.0
+368,TXN-00368,2025-04-09,Abuja,Electronics,Power bank,Online,3,15000.0,9500.0,0.05,Completed,45000.0,42750.0,28500.0,14250.0
+369,TXN-00369,2025-04-04,Kano,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+370,TXN-00370,2025-04-03,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0,Completed,18000.0,18000.0,10500.0,7500.0
+371,TXN-00371,2025-04-29,Port Harcourt,Home,Bedsheet,In-store,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+372,TXN-00372,2025-04-13,Lagos,Home,Cookware set,Online,2,35000.0,22500.0,0.0,Completed,70000.0,70000.0,45000.0,25000.0
+373,TXN-00373,2025-04-15,Abuja,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+374,TXN-00374,2025-04-12,Kano,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+375,TXN-00375,2025-04-19,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+376,TXN-00376,2025-04-12,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+377,TXN-00377,2025-04-19,Abuja,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+378,TXN-00378,2025-04-14,Port Harcourt,Fashion,Handbag,Online,3,22000.0,13500.0,0.0,Completed,66000.0,66000.0,40500.0,25500.0
+379,TXN-00379,2025-04-04,Port Harcourt,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.15,Completed,6500.0,5525.0,3500.0,2025.0
+380,TXN-00380,2025-04-13,Port Harcourt,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+381,TXN-00381,2025-04-22,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+382,TXN-00382,2025-04-21,Port Harcourt,Beauty,Perfume,In-store,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+383,TXN-00383,2025-04-20,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+384,TXN-00384,2025-04-07,Kano,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+385,TXN-00385,2025-04-19,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.15,Completed,18000.0,15300.0,10500.0,4800.0
+386,TXN-00386,2025-04-30,Lagos,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+387,TXN-00387,2025-04-24,Lagos,Fashion,Sneakers,Online,2,28000.0,17500.0,0.1,Completed,56000.0,50400.0,35000.0,15400.0
+388,TXN-00388,2025-04-11,Kano,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+389,TXN-00389,2025-04-23,Port Harcourt,Home,Desk lamp,Online,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+390,TXN-00390,2025-04-04,Lagos,Beauty,Body wash,Online,3,4500.0,2300.0,0.05,Completed,13500.0,12825.0,6900.0,5925.0
+391,TXN-00391,2025-04-23,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.15,Completed,15000.0,12750.0,9500.0,3250.0
+392,TXN-00392,2025-04-20,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+393,TXN-00393,2025-04-30,Abuja,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+394,TXN-00394,2025-04-28,Kano,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+395,TXN-00395,2025-04-27,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+396,TXN-00396,2025-04-21,Kano,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+397,TXN-00397,2025-04-06,Port Harcourt,Electronics,Headphones,In-store,2,18000.0,10500.0,0.05,Completed,36000.0,34200.0,21000.0,13200.0
+398,TXN-00398,2025-04-01,Kano,Fashion,Sneakers,Online,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+399,TXN-00399,2025-04-01,Kano,Electronics,Headphones,In-store,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+400,TXN-00400,2025-04-25,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Returned,15000.0,0,0,0
+401,TXN-00401,2025-04-07,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+402,TXN-00402,2025-04-07,Kano,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+403,TXN-00403,2025-04-07,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+404,TXN-00404,2025-04-22,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+405,TXN-00405,2025-04-22,Port Harcourt,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Returned,22000.0,0,0,0
+406,TXN-00406,2025-04-09,Kano,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+407,TXN-00407,2025-04-28,Port Harcourt,Home,Bedsheet,In-store,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+408,TXN-00408,2025-04-18,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+409,TXN-00409,2025-04-08,Port Harcourt,Beauty,Moisturizer,Online,3,6500.0,3500.0,0.0,Completed,19500.0,19500.0,10500.0,9000.0
+410,TXN-00410,2025-04-29,Unknown,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+411,TXN-00411,2025-04-27,Lagos,Home,Bedsheet,In-store,3,14000.0,8500.0,0.0,Completed,42000.0,42000.0,25500.0,16500.0
+412,TXN-00412,2025-04-01,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+413,TXN-00413,2025-04-14,Abuja,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0,Completed,26000.0,26000.0,17000.0,9000.0
+414,TXN-00414,2025-04-27,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+415,TXN-00415,2025-04-04,Lagos,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+416,TXN-00416,2025-04-30,Lagos,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+417,TXN-00417,2025-04-19,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+418,TXN-00418,2025-04-25,Port Harcourt,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+419,TXN-00419,2025-04-05,Kano,Fashion,Sneakers,Online,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+420,TXN-00420,2025-05-10,Lagos,Electronics,Headphones,Online,3,18000.0,10500.0,0.15,Completed,54000.0,45900.0,31500.0,14400.0
+421,TXN-00421,2025-05-26,Lagos,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.1,Completed,13000.0,11700.0,7000.0,4700.0
+422,TXN-00422,2025-05-24,Port Harcourt,Fashion,T-shirt,Online,2,9000.0,5000.0,0,Completed,18000.0,18000.0,10000.0,8000.0
+423,TXN-00423,2025-05-30,Lagos,Beauty,Perfume,In-store,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+424,TXN-00424,2025-05-09,Port Harcourt,Home,Desk lamp,Online,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+425,TXN-00425,2025-05-14,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.05,Completed,30000.0,28500.0,19000.0,9500.0
+426,TXN-00426,2025-05-28,Lagos,Home,Desk lamp,Online,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+427,TXN-00427,2025-05-10,Kano,Beauty,Body wash,Online,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+428,TXN-00428,2025-05-22,Port Harcourt,Electronics,Power bank,In-store,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+429,TXN-00429,2025-05-26,Port Harcourt,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+430,TXN-00430,2025-05-06,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+431,TXN-00431,2025-05-16,Lagos,Beauty,Body wash,Online,2,4500.0,2300.0,0.1,Completed,9000.0,8100.0,4600.0,3500.0
+432,TXN-00432,2025-05-07,Kano,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+433,TXN-00433,2025-05-05,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.1,Completed,4500.0,4050.0,2300.0,1750.0
+434,TXN-00434,2025-05-21,Abuja,Electronics,Headphones,Online,2,18000.0,10500.0,0.05,Returned,36000.0,0,0,0
+435,TXN-00435,2025-05-07,Port Harcourt,Beauty,Perfume,Online,4,17000.0,9000.0,0.0,Completed,68000.0,68000.0,36000.0,32000.0
+436,TXN-00436,2025-05-06,Port Harcourt,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+437,TXN-00437,2025-05-01,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+438,TXN-00438,2025-05-11,Lagos,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+439,TXN-00439,2025-05-22,Lagos,Beauty,Body wash,In-store,2,4500.0,2300.0,0.05,Completed,9000.0,8550.0,4600.0,3950.0
+440,TXN-00440,2025-05-13,Abuja,Electronics,Headphones,In-store,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+441,TXN-00441,2025-05-31,Port Harcourt,Electronics,Bluetooth speaker,Online,4,26000.0,17000.0,0.0,Completed,104000.0,104000.0,68000.0,36000.0
+442,TXN-00442,2025-05-01,Port Harcourt,Electronics,Headphones,In-store,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+443,TXN-00443,2025-05-22,Lagos,Fashion,Handbag,Online,3,22000.0,13500.0,0.05,Returned,66000.0,0,0,0
+444,TXN-00444,2025-05-25,Abuja,Beauty,Moisturizer,In-store,3,6500.0,3500.0,0.0,Completed,19500.0,19500.0,10500.0,9000.0
+445,TXN-00445,2025-05-09,Abuja,Home,Cookware set,Online,2,35000.0,22500.0,0.0,Completed,70000.0,70000.0,45000.0,25000.0
+446,TXN-00446,2025-05-16,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0,Completed,4500.0,4500.0,2300.0,2200.0
+447,TXN-00447,2025-05-27,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+448,TXN-00448,2025-05-13,Abuja,Home,Bedsheet,Online,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+449,TXN-00449,2025-05-03,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+450,TXN-00450,2025-05-27,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+451,TXN-00451,2025-05-04,Unknown,Electronics,Headphones,Online,4,18000.0,10500.0,0.05,Completed,72000.0,68400.0,42000.0,26400.0
+452,TXN-00452,2025-05-19,Lagos,Home,Cookware set,In-store,2,35000.0,22500.0,0.1,Completed,70000.0,63000.0,45000.0,18000.0
+453,TXN-00453,2025-05-14,Port Harcourt,Electronics,Power bank,In-store,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+454,TXN-00454,2025-05-08,Port Harcourt,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+455,TXN-00455,2025-05-26,Unknown,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+456,TXN-00456,2025-05-30,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+457,TXN-00457,2025-05-28,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+458,TXN-00458,2025-05-07,Port Harcourt,Home,Cookware set,Online,2,35000.0,22500.0,0.05,Completed,70000.0,66500.0,45000.0,21500.0
+459,TXN-00459,2025-05-19,Abuja,Beauty,Body wash,Online,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+460,TXN-00460,2025-05-18,Kano,Home,Bedsheet,In-store,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+461,TXN-00461,2025-05-09,Lagos,Beauty,Perfume,In-store,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+462,TXN-00462,2025-05-20,Lagos,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+463,TXN-00463,2025-05-22,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+464,TXN-00464,2025-05-18,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.05,Returned,15000.0,0,0,0
+465,TXN-00465,2025-05-09,Kano,Beauty,Perfume,Online,1,17000.0,9000.0,0,Completed,17000.0,17000.0,9000.0,8000.0
+466,TXN-00466,2025-05-28,Abuja,Home,Cookware set,Online,2,35000.0,22500.0,0.1,Completed,70000.0,63000.0,45000.0,18000.0
+467,TXN-00467,2025-05-20,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+468,TXN-00468,2025-05-12,Abuja,Beauty,Perfume,Online,3,17000.0,9000.0,0.1,Completed,51000.0,45900.0,27000.0,18900.0
+469,TXN-00469,2025-05-07,Abuja,Fashion,T-shirt,Online,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+470,TXN-00470,2025-05-30,Port Harcourt,Home,Desk lamp,Online,1,12000.0,7200.0,0.1,Completed,12000.0,10800.0,7200.0,3600.0
+471,TXN-00471,2025-05-03,Port Harcourt,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+472,TXN-00472,2025-05-26,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+473,TXN-00473,2025-05-31,Port Harcourt,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+474,TXN-00474,2025-05-02,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.1,Completed,9000.0,8100.0,5000.0,3100.0
+475,TXN-00475,2025-05-15,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+476,TXN-00476,2025-05-19,Abuja,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+477,TXN-00477,2025-05-20,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+478,TXN-00478,2025-05-05,Port Harcourt,Fashion,Handbag,In-store,1,22000.0,13500.0,0.15,Completed,22000.0,18700.0,13500.0,5200.0
+479,TXN-00479,2025-05-14,Lagos,Fashion,T-shirt,Online,4,9000.0,5000.0,0.0,Completed,36000.0,36000.0,20000.0,16000.0
+480,TXN-00480,2025-05-14,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+481,TXN-00481,2025-05-28,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.05,Completed,12000.0,11400.0,7200.0,4200.0
+482,TXN-00482,2025-05-11,Lagos,Electronics,Bluetooth speaker,In-store,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+483,TXN-00483,2025-05-02,Lagos,Beauty,Moisturizer,In-store,2,6500.0,3500.0,0.1,Completed,13000.0,11700.0,7000.0,4700.0
+484,TXN-00484,2025-05-21,Abuja,Electronics,Headphones,In-store,2,18000.0,10500.0,0.05,Completed,36000.0,34200.0,21000.0,13200.0
+485,TXN-00485,2025-05-27,Abuja,Electronics,Power bank,In-store,2,15000.0,9500.0,0.1,Completed,30000.0,27000.0,19000.0,8000.0
+486,TXN-00486,2025-05-01,Abuja,Beauty,Body wash,In-store,3,4500.0,2300.0,0.0,Completed,13500.0,13500.0,6900.0,6600.0
+487,TXN-00487,2025-05-16,Port Harcourt,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+488,TXN-00488,2025-05-31,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+489,TXN-00489,2025-05-15,Abuja,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+490,TXN-00490,2025-05-14,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+491,TXN-00491,2025-05-04,Lagos,Home,Desk lamp,Online,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+492,TXN-00492,2025-05-13,Lagos,Electronics,Power bank,In-store,2,15000.0,9500.0,0.05,Completed,30000.0,28500.0,19000.0,9500.0
+493,TXN-00493,2025-05-04,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+494,TXN-00494,2025-05-18,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.0,Returned,14000.0,0,0,0
+495,TXN-00495,2025-05-14,Lagos,Electronics,Headphones,In-store,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+496,TXN-00496,2025-05-18,Abuja,Home,Bedsheet,Online,4,14000.0,8500.0,0.0,Completed,56000.0,56000.0,34000.0,22000.0
+497,TXN-00497,2025-05-03,Port Harcourt,Fashion,T-shirt,Online,3,9000.0,5000.0,0.0,Completed,27000.0,27000.0,15000.0,12000.0
+498,TXN-00498,2025-05-29,Abuja,Beauty,Moisturizer,Online,3,6500.0,3500.0,0.15,Completed,19500.0,16575.0,10500.0,6075.0
+499,TXN-00499,2025-05-08,Port Harcourt,Beauty,Body wash,In-store,3,4500.0,2300.0,0.05,Completed,13500.0,12825.0,6900.0,5925.0
+500,TXN-00500,2025-05-24,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+501,TXN-00501,2025-05-01,Port Harcourt,Home,Bedsheet,In-store,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+502,TXN-00502,2025-05-29,Abuja,Fashion,Handbag,In-store,2,22000.0,13500.0,0.1,Completed,44000.0,39600.0,27000.0,12600.0
+503,TXN-00503,2025-05-01,Kano,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+504,TXN-00504,2025-05-09,Lagos,Home,Cookware set,In-store,2,35000.0,22500.0,0.05,Completed,70000.0,66500.0,45000.0,21500.0
+505,TXN-00505,2025-05-29,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+506,TXN-00506,2025-05-11,Abuja,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+507,TXN-00507,2025-05-04,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+508,TXN-00508,2025-05-23,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+509,TXN-00509,2025-05-15,Port Harcourt,Home,Bedsheet,In-store,4,14000.0,8500.0,0.05,Completed,56000.0,53200.0,34000.0,19200.0
+510,TXN-00510,2025-05-29,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+511,TXN-00511,2025-05-15,Port Harcourt,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+512,TXN-00512,2025-05-05,Port Harcourt,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+513,TXN-00513,2025-05-06,Lagos,Home,Bedsheet,Online,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+514,TXN-00514,2025-05-05,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+515,TXN-00515,2025-05-18,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+516,TXN-00516,2025-05-28,Abuja,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+517,TXN-00517,2025-05-21,Port Harcourt,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+518,TXN-00518,2025-05-05,Kano,Beauty,Moisturizer,In-store,3,6500.0,3500.0,0.0,Completed,19500.0,19500.0,10500.0,9000.0
+519,TXN-00519,2025-05-26,Abuja,Electronics,Power bank,Online,2,15000.0,9500.0,0.05,Completed,30000.0,28500.0,19000.0,9500.0
+520,TXN-00520,2025-05-29,Kano,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+521,TXN-00521,2025-05-25,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+522,TXN-00522,2025-05-22,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+523,TXN-00523,2025-05-06,Abuja,Fashion,T-shirt,Online,3,9000.0,5000.0,0.0,Completed,27000.0,27000.0,15000.0,12000.0
+524,TXN-00524,2025-05-01,Abuja,Beauty,Moisturizer,Online,3,6500.0,3500.0,0.0,Completed,19500.0,19500.0,10500.0,9000.0
+525,TXN-00525,2025-05-27,Port Harcourt,Fashion,Sneakers,Online,2,28000.0,17500.0,0.15,Completed,56000.0,47600.0,35000.0,12600.0
+526,TXN-00526,2025-05-04,Kano,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+527,TXN-00527,2025-05-18,Abuja,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.15,Completed,6500.0,5525.0,3500.0,2025.0
+528,TXN-00528,2025-05-02,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+529,TXN-00529,2025-05-08,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+530,TXN-00530,2025-05-22,Lagos,Beauty,Body wash,In-store,3,4500.0,2300.0,0.0,Completed,13500.0,13500.0,6900.0,6600.0
+531,TXN-00531,2025-05-21,Lagos,Electronics,Power bank,In-store,3,15000.0,9500.0,0.0,Completed,45000.0,45000.0,28500.0,16500.0
+532,TXN-00532,2025-05-09,Lagos,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.0,Returned,18000.0,0,0,0
+533,TXN-00533,2025-05-04,Port Harcourt,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+534,TXN-00534,2025-05-07,Port Harcourt,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+535,TXN-00535,2025-05-07,Kano,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+536,TXN-00536,2025-05-08,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0,Completed,28000.0,28000.0,17500.0,10500.0
+537,TXN-00537,2025-05-27,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+538,TXN-00538,2025-06-06,Kano,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+539,TXN-00539,2025-06-21,Kano,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+540,TXN-00540,2025-06-13,Port Harcourt,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+541,TXN-00541,2025-06-05,Port Harcourt,Fashion,Handbag,Online,2,22000.0,13500.0,0.05,Completed,44000.0,41800.0,27000.0,14800.0
+542,TXN-00542,2025-06-13,Lagos,Fashion,Handbag,Online,3,22000.0,13500.0,0.0,Completed,66000.0,66000.0,40500.0,25500.0
+543,TXN-00543,2025-06-13,Abuja,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+544,TXN-00544,2025-06-17,Abuja,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+545,TXN-00545,2025-06-03,Lagos,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+546,TXN-00546,2025-06-04,Port Harcourt,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+547,TXN-00547,2025-06-08,Port Harcourt,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.15,Completed,28000.0,23800.0,17500.0,6300.0
+548,TXN-00548,2025-06-12,Kano,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+549,TXN-00549,2025-06-28,Abuja,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+550,TXN-00550,2025-06-14,Lagos,Fashion,Handbag,In-store,2,22000.0,13500.0,0.15,Returned,44000.0,0,0,0
+551,TXN-00551,2025-06-26,Lagos,Beauty,Perfume,In-store,4,17000.0,9000.0,0.0,Completed,68000.0,68000.0,36000.0,32000.0
+552,TXN-00552,2025-06-27,Lagos,Fashion,Handbag,Online,3,22000.0,13500.0,0.1,Completed,66000.0,59400.0,40500.0,18900.0
+553,TXN-00553,2025-06-19,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+554,TXN-00554,2025-06-01,Port Harcourt,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.1,Completed,6500.0,5850.0,3500.0,2350.0
+555,TXN-00555,2025-06-27,Port Harcourt,Beauty,Perfume,In-store,4,17000.0,9000.0,0.15,Completed,68000.0,57800.0,36000.0,21800.0
+556,TXN-00556,2025-06-30,Unknown,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+557,TXN-00557,2025-06-02,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+558,TXN-00558,2025-06-10,Unknown,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+559,TXN-00559,2025-06-28,Port Harcourt,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Returned,9000.0,0,0,0
+560,TXN-00560,2025-06-08,Port Harcourt,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.05,Completed,13000.0,12350.0,7000.0,5350.0
+561,TXN-00561,2025-06-21,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+562,TXN-00562,2025-06-13,Kano,Home,Desk lamp,Online,1,12000.0,7200.0,0,Completed,12000.0,12000.0,7200.0,4800.0
+563,TXN-00563,2025-06-22,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.1,Completed,52000.0,46800.0,34000.0,12800.0
+564,TXN-00564,2025-06-08,Port Harcourt,Beauty,Perfume,Online,2,17000.0,9000.0,0.05,Completed,34000.0,32300.0,18000.0,14300.0
+565,TXN-00565,2025-06-17,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.15,Completed,26000.0,22100.0,17000.0,5100.0
+566,TXN-00566,2025-06-29,Kano,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+567,TXN-00567,2025-06-04,Abuja,Fashion,Sneakers,Online,3,28000.0,17500.0,0.1,Returned,84000.0,0,0,0
+568,TXN-00568,2025-06-12,Port Harcourt,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Returned,52000.0,0,0,0
+569,TXN-00569,2025-06-28,Abuja,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+570,TXN-00570,2025-06-26,Lagos,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.1,Completed,56000.0,50400.0,35000.0,15400.0
+571,TXN-00571,2025-06-21,Lagos,Electronics,Power bank,In-store,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+572,TXN-00572,2025-06-13,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.15,Completed,4500.0,3825.0,2300.0,1525.0
+573,TXN-00573,2025-06-29,Kano,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+574,TXN-00574,2025-06-29,Kano,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+575,TXN-00575,2025-06-25,Lagos,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+576,TXN-00576,2025-06-19,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+577,TXN-00577,2025-06-02,Port Harcourt,Fashion,T-shirt,Online,1,9000.0,5000.0,0.15,Completed,9000.0,7650.0,5000.0,2650.0
+578,TXN-00578,2025-06-18,Kano,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+579,TXN-00579,2025-06-11,Kano,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+580,TXN-00580,2025-06-20,Abuja,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+581,TXN-00581,2025-06-02,Lagos,Home,Desk lamp,In-store,1,12000.0,7200.0,0,Completed,12000.0,12000.0,7200.0,4800.0
+582,TXN-00582,2025-06-29,Port Harcourt,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+583,TXN-00583,2025-06-01,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+584,TXN-00584,2025-06-03,Port Harcourt,Beauty,Moisturizer,Online,3,6500.0,3500.0,0.0,Completed,19500.0,19500.0,10500.0,9000.0
+585,TXN-00585,2025-06-16,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+586,TXN-00586,2025-06-05,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+587,TXN-00587,2025-06-12,Port Harcourt,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+588,TXN-00588,2025-06-29,Port Harcourt,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+589,TXN-00589,2025-06-28,Abuja,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+590,TXN-00590,2025-06-18,Kano,Electronics,Headphones,Online,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+591,TXN-00591,2025-06-28,Port Harcourt,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+592,TXN-00592,2025-06-05,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+593,TXN-00593,2025-06-18,Kano,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+594,TXN-00594,2025-06-30,Kano,Home,Cookware set,Online,3,35000.0,22500.0,0.0,Completed,105000.0,105000.0,67500.0,37500.0
+595,TXN-00595,2025-06-13,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+596,TXN-00596,2025-06-12,Kano,Home,Bedsheet,In-store,3,14000.0,8500.0,0.0,Completed,42000.0,42000.0,25500.0,16500.0
+597,TXN-00597,2025-06-16,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+598,TXN-00598,2025-06-26,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+599,TXN-00599,2025-06-05,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+600,TXN-00600,2025-06-01,Abuja,Electronics,Headphones,In-store,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+601,TXN-00601,2025-06-07,Lagos,Electronics,Headphones,In-store,2,18000.0,10500.0,0.05,Completed,36000.0,34200.0,21000.0,13200.0
+602,TXN-00602,2025-06-03,Port Harcourt,Home,Desk lamp,Online,1,12000.0,7200.0,0.05,Completed,12000.0,11400.0,7200.0,4200.0
+603,TXN-00603,2025-06-21,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+604,TXN-00604,2025-06-07,Kano,Home,Bedsheet,In-store,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+605,TXN-00605,2025-06-25,Unknown,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+606,TXN-00606,2025-06-17,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+607,TXN-00607,2025-06-03,Lagos,Electronics,Bluetooth speaker,In-store,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+608,TXN-00608,2025-06-17,Kano,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+609,TXN-00609,2025-06-07,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+610,TXN-00610,2025-06-08,Unknown,Electronics,Headphones,Online,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+611,TXN-00611,2025-06-06,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+612,TXN-00612,2025-06-08,Abuja,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+613,TXN-00613,2025-06-18,Port Harcourt,Electronics,Power bank,Online,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+614,TXN-00614,2025-06-17,Lagos,Home,Bedsheet,Online,2,14000.0,8500.0,0.15,Completed,28000.0,23800.0,17000.0,6800.0
+615,TXN-00615,2025-06-15,Abuja,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+616,TXN-00616,2025-06-10,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+617,TXN-00617,2025-06-05,Abuja,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+618,TXN-00618,2025-06-16,Kano,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+619,TXN-00619,2025-06-03,Kano,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+620,TXN-00620,2025-06-17,Port Harcourt,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+621,TXN-00621,2025-06-24,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+622,TXN-00622,2025-06-23,Abuja,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+623,TXN-00623,2025-06-30,Port Harcourt,Fashion,T-shirt,Online,2,9000.0,5000.0,0.15,Completed,18000.0,15300.0,10000.0,5300.0
+624,TXN-00624,2025-06-30,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+625,TXN-00625,2025-06-21,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.15,Completed,15000.0,12750.0,9500.0,3250.0
+626,TXN-00626,2025-06-08,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+627,TXN-00627,2025-06-27,Lagos,Home,Cookware set,Online,2,35000.0,22500.0,0.0,Completed,70000.0,70000.0,45000.0,25000.0
+628,TXN-00628,2025-06-18,Port Harcourt,Beauty,Moisturizer,In-store,3,6500.0,3500.0,0.1,Completed,19500.0,17550.0,10500.0,7050.0
+629,TXN-00629,2025-06-11,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+630,TXN-00630,2025-06-20,Lagos,Fashion,Sneakers,In-store,4,28000.0,17500.0,0.0,Completed,112000.0,112000.0,70000.0,42000.0
+631,TXN-00631,2025-06-13,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+632,TXN-00632,2025-06-06,Kano,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.05,Completed,13000.0,12350.0,7000.0,5350.0
+633,TXN-00633,2025-06-23,Port Harcourt,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+634,TXN-00634,2025-06-22,Lagos,Beauty,Body wash,Online,3,4500.0,2300.0,0.0,Completed,13500.0,13500.0,6900.0,6600.0
+635,TXN-00635,2025-06-18,Abuja,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+636,TXN-00636,2025-06-07,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+637,TXN-00637,2025-06-06,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.1,Completed,6500.0,5850.0,3500.0,2350.0
+638,TXN-00638,2025-06-01,Abuja,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+639,TXN-00639,2025-06-22,Lagos,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+640,TXN-00640,2025-06-02,Port Harcourt,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+641,TXN-00641,2025-06-01,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+642,TXN-00642,2025-06-27,Lagos,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+643,TXN-00643,2025-06-03,Abuja,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+644,TXN-00644,2025-06-11,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+645,TXN-00645,2025-06-15,Lagos,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+646,TXN-00646,2025-06-29,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+647,TXN-00647,2025-06-01,Lagos,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+648,TXN-00648,2025-06-03,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+649,TXN-00649,2025-06-14,Kano,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+650,TXN-00650,2025-06-10,Abuja,Beauty,Perfume,Online,3,17000.0,9000.0,0.1,Completed,51000.0,45900.0,27000.0,18900.0
+651,TXN-00651,2025-06-03,Abuja,Beauty,Body wash,Online,1,4500.0,2300.0,0.1,Completed,4500.0,4050.0,2300.0,1750.0
+652,TXN-00652,2025-06-21,Abuja,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+653,TXN-00653,2025-06-14,Lagos,Home,Desk lamp,In-store,3,12000.0,7200.0,0.0,Completed,36000.0,36000.0,21600.0,14400.0
+654,TXN-00654,2025-06-08,Port Harcourt,Home,Bedsheet,In-store,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+655,TXN-00655,2025-06-05,Port Harcourt,Beauty,Body wash,Online,3,4500.0,2300.0,0.1,Completed,13500.0,12150.0,6900.0,5250.0
+656,TXN-00656,2025-06-21,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.1,Completed,6500.0,5850.0,3500.0,2350.0
+657,TXN-00657,2025-06-16,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+658,TXN-00658,2025-07-19,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+659,TXN-00659,2025-07-01,Kano,Home,Desk lamp,In-store,1,12000.0,7200.0,0.1,Completed,12000.0,10800.0,7200.0,3600.0
+660,TXN-00660,2025-07-18,Abuja,Beauty,Perfume,In-store,2,17000.0,9000.0,0.1,Completed,34000.0,30600.0,18000.0,12600.0
+661,TXN-00661,2025-07-13,Port Harcourt,Fashion,T-shirt,In-store,3,9000.0,5000.0,0.0,Returned,27000.0,0,0,0
+662,TXN-00662,2025-07-13,Port Harcourt,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+663,TXN-00663,2025-07-06,Abuja,Electronics,Power bank,In-store,2,15000.0,9500.0,0.05,Completed,30000.0,28500.0,19000.0,9500.0
+664,TXN-00664,2025-07-28,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+665,TXN-00665,2025-07-04,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.1,Completed,4500.0,4050.0,2300.0,1750.0
+666,TXN-00666,2025-07-22,Port Harcourt,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+667,TXN-00667,2025-07-11,Abuja,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.1,Completed,52000.0,46800.0,34000.0,12800.0
+668,TXN-00668,2025-07-08,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+669,TXN-00669,2025-07-11,Kano,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+670,TXN-00670,2025-07-06,Port Harcourt,Electronics,Power bank,Online,1,15000.0,9500.0,0.15,Completed,15000.0,12750.0,9500.0,3250.0
+671,TXN-00671,2025-07-07,Lagos,Beauty,Moisturizer,Online,4,6500.0,3500.0,0.0,Returned,26000.0,0,0,0
+672,TXN-00672,2025-07-24,Port Harcourt,Beauty,Body wash,In-store,1,4500.0,2300.0,0.15,Completed,4500.0,3825.0,2300.0,1525.0
+673,TXN-00673,2025-07-05,Abuja,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+674,TXN-00674,2025-07-27,Port Harcourt,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+675,TXN-00675,2025-07-26,Lagos,Beauty,Perfume,In-store,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+676,TXN-00676,2025-07-08,Port Harcourt,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+677,TXN-00677,2025-07-06,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+678,TXN-00678,2025-07-09,Abuja,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+679,TXN-00679,2025-07-22,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+680,TXN-00680,2025-07-31,Abuja,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+681,TXN-00681,2025-07-08,Lagos,Fashion,Handbag,Online,4,22000.0,13500.0,0.0,Completed,88000.0,88000.0,54000.0,34000.0
+682,TXN-00682,2025-07-01,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+683,TXN-00683,2025-07-14,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+684,TXN-00684,2025-07-02,Abuja,Electronics,Power bank,In-store,3,15000.0,9500.0,0,Completed,45000.0,45000.0,28500.0,16500.0
+685,TXN-00685,2025-07-04,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+686,TXN-00686,2025-07-15,Lagos,Electronics,Power bank,Online,3,15000.0,9500.0,0.1,Completed,45000.0,40500.0,28500.0,12000.0
+687,TXN-00687,2025-07-30,Port Harcourt,Home,Cookware set,In-store,2,35000.0,22500.0,0.1,Completed,70000.0,63000.0,45000.0,18000.0
+688,TXN-00688,2025-07-12,Lagos,Home,Desk lamp,Online,3,12000.0,7200.0,0.0,Completed,36000.0,36000.0,21600.0,14400.0
+689,TXN-00689,2025-07-31,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.15,Completed,26000.0,22100.0,17000.0,5100.0
+690,TXN-00690,2025-07-04,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+691,TXN-00691,2025-07-11,Lagos,Electronics,Power bank,In-store,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+692,TXN-00692,2025-07-18,Abuja,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+693,TXN-00693,2025-07-17,Port Harcourt,Beauty,Body wash,In-store,2,4500.0,2300.0,0.1,Completed,9000.0,8100.0,4600.0,3500.0
+694,TXN-00694,2025-07-05,Port Harcourt,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+695,TXN-00695,2025-07-13,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+696,TXN-00696,2025-07-09,Abuja,Beauty,Body wash,In-store,2,4500.0,2300.0,0.05,Returned,9000.0,0,0,0
+697,TXN-00697,2025-07-21,Lagos,Electronics,Headphones,Online,2,18000.0,10500.0,0.1,Completed,36000.0,32400.0,21000.0,11400.0
+698,TXN-00698,2025-07-21,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+699,TXN-00699,2025-07-18,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+700,TXN-00700,2025-07-04,Port Harcourt,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+701,TXN-00701,2025-07-22,Kano,Beauty,Moisturizer,Online,4,6500.0,3500.0,0.0,Completed,26000.0,26000.0,14000.0,12000.0
+702,TXN-00702,2025-07-31,Lagos,Fashion,Sneakers,Online,2,28000.0,17500.0,0.15,Completed,56000.0,47600.0,35000.0,12600.0
+703,TXN-00703,2025-07-24,Lagos,Fashion,Sneakers,Online,3,28000.0,17500.0,0.0,Completed,84000.0,84000.0,52500.0,31500.0
+704,TXN-00704,2025-07-03,Lagos,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+705,TXN-00705,2025-07-05,Abuja,Home,Desk lamp,In-store,1,12000.0,7200.0,0.05,Returned,12000.0,0,0,0
+706,TXN-00706,2025-07-07,Lagos,Electronics,Power bank,Online,4,15000.0,9500.0,0.05,Completed,60000.0,57000.0,38000.0,19000.0
+707,TXN-00707,2025-07-28,Lagos,Home,Cookware set,Online,2,35000.0,22500.0,0.0,Completed,70000.0,70000.0,45000.0,25000.0
+708,TXN-00708,2025-07-14,Lagos,Home,Desk lamp,Online,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+709,TXN-00709,2025-07-04,Abuja,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+710,TXN-00710,2025-07-11,Abuja,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.05,Returned,52000.0,0,0,0
+711,TXN-00711,2025-07-31,Port Harcourt,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+712,TXN-00712,2025-07-27,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+713,TXN-00713,2025-07-02,Kano,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+714,TXN-00714,2025-07-16,Port Harcourt,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+715,TXN-00715,2025-07-20,Port Harcourt,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+716,TXN-00716,2025-07-13,Lagos,Electronics,Headphones,Online,3,18000.0,10500.0,0.0,Returned,54000.0,0,0,0
+717,TXN-00717,2025-07-04,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+718,TXN-00718,2025-07-16,Kano,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+719,TXN-00719,2025-07-17,Lagos,Beauty,Perfume,Online,2,17000.0,9000.0,0.15,Completed,34000.0,28900.0,18000.0,10900.0
+720,TXN-00720,2025-07-05,Port Harcourt,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+721,TXN-00721,2025-07-19,Lagos,Electronics,Power bank,In-store,3,15000.0,9500.0,0.0,Completed,45000.0,45000.0,28500.0,16500.0
+722,TXN-00722,2025-07-13,Kano,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+723,TXN-00723,2025-07-11,Port Harcourt,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+724,TXN-00724,2025-07-04,Abuja,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+725,TXN-00725,2025-07-07,Port Harcourt,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+726,TXN-00726,2025-07-08,Abuja,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+727,TXN-00727,2025-07-01,Abuja,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+728,TXN-00728,2025-07-24,Kano,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+729,TXN-00729,2025-07-19,Abuja,Beauty,Body wash,In-store,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+730,TXN-00730,2025-07-13,Abuja,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Returned,56000.0,0,0,0
+731,TXN-00731,2025-07-13,Port Harcourt,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+732,TXN-00732,2025-07-08,Port Harcourt,Home,Desk lamp,Online,1,12000.0,7200.0,0.05,Completed,12000.0,11400.0,7200.0,4200.0
+733,TXN-00733,2025-07-15,Abuja,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+734,TXN-00734,2025-07-11,Abuja,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+735,TXN-00735,2025-07-26,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.1,Returned,22000.0,0,0,0
+736,TXN-00736,2025-07-03,Lagos,Home,Desk lamp,In-store,3,12000.0,7200.0,0.0,Completed,36000.0,36000.0,21600.0,14400.0
+737,TXN-00737,2025-07-26,Kano,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+738,TXN-00738,2025-07-15,Abuja,Home,Desk lamp,Online,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+739,TXN-00739,2025-07-23,Lagos,Electronics,Power bank,In-store,3,15000.0,9500.0,0.05,Completed,45000.0,42750.0,28500.0,14250.0
+740,TXN-00740,2025-07-02,Kano,Home,Bedsheet,Online,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+741,TXN-00741,2025-07-01,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+742,TXN-00742,2025-07-09,Kano,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+743,TXN-00743,2025-07-17,Abuja,Home,Desk lamp,Online,4,12000.0,7200.0,0.0,Completed,48000.0,48000.0,28800.0,19200.0
+744,TXN-00744,2025-07-24,Port Harcourt,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+745,TXN-00745,2025-07-09,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+746,TXN-00746,2025-07-09,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.05,Returned,18000.0,0,0,0
+747,TXN-00747,2025-07-24,Lagos,Home,Bedsheet,In-store,3,14000.0,8500.0,0.1,Completed,42000.0,37800.0,25500.0,12300.0
+748,TXN-00748,2025-07-26,Abuja,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+749,TXN-00749,2025-07-02,Abuja,Electronics,Headphones,In-store,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+750,TXN-00750,2025-07-16,Kano,Home,Bedsheet,Online,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+751,TXN-00751,2025-07-07,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+752,TXN-00752,2025-07-30,Kano,Electronics,Power bank,In-store,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+753,TXN-00753,2025-07-25,Lagos,Fashion,Handbag,In-store,2,22000.0,13500.0,0.05,Completed,44000.0,41800.0,27000.0,14800.0
+754,TXN-00754,2025-07-09,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+755,TXN-00755,2025-07-09,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+756,TXN-00756,2025-07-16,Lagos,Beauty,Body wash,In-store,2,4500.0,2300.0,0.1,Completed,9000.0,8100.0,4600.0,3500.0
+757,TXN-00757,2025-07-20,Abuja,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+758,TXN-00758,2025-07-15,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+759,TXN-00759,2025-07-13,Port Harcourt,Fashion,Handbag,Online,1,22000.0,13500.0,0.05,Returned,22000.0,0,0,0
+760,TXN-00760,2025-07-07,Kano,Home,Desk lamp,Online,1,12000.0,7200.0,0.1,Completed,12000.0,10800.0,7200.0,3600.0
+761,TXN-00761,2025-07-19,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+762,TXN-00762,2025-07-12,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+763,TXN-00763,2025-07-04,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Returned,9000.0,0,0,0
+764,TXN-00764,2025-07-06,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+765,TXN-00765,2025-07-28,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+766,TXN-00766,2025-07-26,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+767,TXN-00767,2025-07-11,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0,Completed,26000.0,26000.0,17000.0,9000.0
+768,TXN-00768,2025-07-01,Lagos,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+769,TXN-00769,2025-07-01,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+770,TXN-00770,2025-07-07,Port Harcourt,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.15,Completed,26000.0,22100.0,17000.0,5100.0
+771,TXN-00771,2025-07-27,Kano,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+772,TXN-00772,2025-07-28,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+773,TXN-00773,2025-07-14,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+774,TXN-00774,2025-07-05,Kano,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+775,TXN-00775,2025-07-01,Kano,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+776,TXN-00776,2025-07-16,Kano,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+777,TXN-00777,2025-07-05,Kano,Home,Desk lamp,Online,3,12000.0,7200.0,0.0,Completed,36000.0,36000.0,21600.0,14400.0
+778,TXN-00778,2025-07-05,Abuja,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+779,TXN-00779,2025-07-01,Port Harcourt,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+780,TXN-00780,2025-07-08,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+781,TXN-00781,2025-07-20,Port Harcourt,Electronics,Headphones,In-store,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+782,TXN-00782,2025-08-23,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+783,TXN-00783,2025-08-23,Port Harcourt,Beauty,Body wash,In-store,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+784,TXN-00784,2025-08-12,Abuja,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+785,TXN-00785,2025-08-30,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.15,Completed,30000.0,25500.0,19000.0,6500.0
+786,TXN-00786,2025-08-21,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+787,TXN-00787,2025-08-07,Kano,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+788,TXN-00788,2025-08-18,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+789,TXN-00789,2025-08-17,Abuja,Home,Cookware set,Online,4,35000.0,22500.0,0.05,Completed,140000.0,133000.0,90000.0,43000.0
+790,TXN-00790,2025-08-05,Port Harcourt,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+791,TXN-00791,2025-08-01,Lagos,Beauty,Perfume,In-store,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+792,TXN-00792,2025-08-04,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+793,TXN-00793,2025-08-24,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+794,TXN-00794,2025-08-21,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+795,TXN-00795,2025-08-30,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+796,TXN-00796,2025-08-03,Port Harcourt,Electronics,Headphones,Online,2,18000.0,10500.0,0,Completed,36000.0,36000.0,21000.0,15000.0
+797,TXN-00797,2025-08-09,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+798,TXN-00798,2025-08-04,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+799,TXN-00799,2025-08-13,Kano,Beauty,Body wash,Online,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+800,TXN-00800,2025-08-15,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.15,Completed,9000.0,7650.0,5000.0,2650.0
+801,TXN-00801,2025-08-16,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+802,TXN-00802,2025-08-10,Abuja,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+803,TXN-00803,2025-08-29,Port Harcourt,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Returned,9000.0,0,0,0
+804,TXN-00804,2025-08-29,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+805,TXN-00805,2025-08-10,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.1,Completed,4500.0,4050.0,2300.0,1750.0
+806,TXN-00806,2025-08-14,Port Harcourt,Fashion,T-shirt,Online,2,9000.0,5000.0,0.1,Completed,18000.0,16200.0,10000.0,6200.0
+807,TXN-00807,2025-08-16,Lagos,Home,Bedsheet,In-store,4,14000.0,8500.0,0.05,Completed,56000.0,53200.0,34000.0,19200.0
+808,TXN-00808,2025-08-19,Lagos,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+809,TXN-00809,2025-08-14,Lagos,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.05,Returned,56000.0,0,0,0
+810,TXN-00810,2025-08-23,Port Harcourt,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.1,Completed,18000.0,16200.0,10000.0,6200.0
+811,TXN-00811,2025-08-01,Abuja,Beauty,Perfume,Online,2,17000.0,9000.0,0,Completed,34000.0,34000.0,18000.0,16000.0
+812,TXN-00812,2025-08-27,Kano,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+813,TXN-00813,2025-08-30,Kano,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+814,TXN-00814,2025-08-26,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Returned,28000.0,0,0,0
+815,TXN-00815,2025-08-18,Abuja,Beauty,Perfume,Online,4,17000.0,9000.0,0.0,Completed,68000.0,68000.0,36000.0,32000.0
+816,TXN-00816,2025-08-02,Lagos,Home,Cookware set,Online,2,35000.0,22500.0,0.1,Completed,70000.0,63000.0,45000.0,18000.0
+817,TXN-00817,2025-08-02,Abuja,Home,Bedsheet,In-store,3,14000.0,8500.0,0.1,Completed,42000.0,37800.0,25500.0,12300.0
+818,TXN-00818,2025-08-06,Port Harcourt,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+819,TXN-00819,2025-08-31,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+820,TXN-00820,2025-08-19,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+821,TXN-00821,2025-08-20,Kano,Home,Desk lamp,In-store,1,12000.0,7200.0,0.1,Completed,12000.0,10800.0,7200.0,3600.0
+822,TXN-00822,2025-08-31,Abuja,Fashion,Handbag,In-store,3,22000.0,13500.0,0.05,Completed,66000.0,62700.0,40500.0,22200.0
+823,TXN-00823,2025-08-04,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+824,TXN-00824,2025-08-06,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+825,TXN-00825,2025-08-12,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Returned,15000.0,0,0,0
+826,TXN-00826,2025-08-11,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+827,TXN-00827,2025-08-06,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+828,TXN-00828,2025-08-03,Port Harcourt,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+829,TXN-00829,2025-08-09,Port Harcourt,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+830,TXN-00830,2025-08-14,Lagos,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+831,TXN-00831,2025-08-30,Lagos,Electronics,Power bank,Online,3,15000.0,9500.0,0.1,Completed,45000.0,40500.0,28500.0,12000.0
+832,TXN-00832,2025-08-21,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+833,TXN-00833,2025-08-31,Lagos,Electronics,Power bank,In-store,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+834,TXN-00834,2025-08-11,Abuja,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+835,TXN-00835,2025-08-07,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+836,TXN-00836,2025-08-28,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+837,TXN-00837,2025-08-31,Kano,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+838,TXN-00838,2025-08-15,Abuja,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+839,TXN-00839,2025-08-13,Lagos,Home,Desk lamp,Online,2,12000.0,7200.0,0.05,Completed,24000.0,22800.0,14400.0,8400.0
+840,TXN-00840,2025-08-18,Port Harcourt,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.1,Completed,9000.0,8100.0,5000.0,3100.0
+841,TXN-00841,2025-08-13,Port Harcourt,Beauty,Perfume,Online,4,17000.0,9000.0,0.1,Completed,68000.0,61200.0,36000.0,25200.0
+842,TXN-00842,2025-08-31,Lagos,Beauty,Body wash,Online,2,4500.0,2300.0,0.1,Completed,9000.0,8100.0,4600.0,3500.0
+843,TXN-00843,2025-08-28,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.1,Completed,30000.0,27000.0,19000.0,8000.0
+844,TXN-00844,2025-08-06,Lagos,Fashion,Handbag,Online,3,22000.0,13500.0,0.0,Completed,66000.0,66000.0,40500.0,25500.0
+845,TXN-00845,2025-08-01,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+846,TXN-00846,2025-08-14,Lagos,Fashion,Handbag,In-store,1,22000.0,13500.0,0.15,Completed,22000.0,18700.0,13500.0,5200.0
+847,TXN-00847,2025-08-21,Lagos,Fashion,Sneakers,In-store,4,28000.0,17500.0,0.0,Completed,112000.0,112000.0,70000.0,42000.0
+848,TXN-00848,2025-08-14,Abuja,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+849,TXN-00849,2025-08-26,Abuja,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Returned,35000.0,0,0,0
+850,TXN-00850,2025-08-26,Port Harcourt,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+851,TXN-00851,2025-08-06,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+852,TXN-00852,2025-08-05,Port Harcourt,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+853,TXN-00853,2025-08-08,Port Harcourt,Beauty,Moisturizer,In-store,2,6500.0,3500.0,0.1,Completed,13000.0,11700.0,7000.0,4700.0
+854,TXN-00854,2025-08-09,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.15,Completed,4500.0,3825.0,2300.0,1525.0
+855,TXN-00855,2025-08-12,Port Harcourt,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.05,Returned,28000.0,0,0,0
+856,TXN-00856,2025-08-31,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+857,TXN-00857,2025-08-23,Lagos,Home,Cookware set,Online,2,35000.0,22500.0,0.1,Returned,70000.0,0,0,0
+858,TXN-00858,2025-08-16,Kano,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.1,Completed,6500.0,5850.0,3500.0,2350.0
+859,TXN-00859,2025-08-08,Lagos,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+860,TXN-00860,2025-08-22,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+861,TXN-00861,2025-08-06,Abuja,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+862,TXN-00862,2025-08-13,Lagos,Home,Desk lamp,Online,2,12000.0,7200.0,0.05,Completed,24000.0,22800.0,14400.0,8400.0
+863,TXN-00863,2025-08-01,Abuja,Beauty,Perfume,Online,2,17000.0,9000.0,0.05,Completed,34000.0,32300.0,18000.0,14300.0
+864,TXN-00864,2025-08-27,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+865,TXN-00865,2025-08-02,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+866,TXN-00866,2025-08-25,Unknown,Electronics,Power bank,Online,3,15000.0,9500.0,0.1,Completed,45000.0,40500.0,28500.0,12000.0
+867,TXN-00867,2025-08-03,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+868,TXN-00868,2025-08-24,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+869,TXN-00869,2025-08-01,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Returned,52000.0,0,0,0
+870,TXN-00870,2025-08-05,Abuja,Electronics,Headphones,Online,2,18000.0,10500.0,0.05,Completed,36000.0,34200.0,21000.0,13200.0
+871,TXN-00871,2025-08-27,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.1,Completed,22000.0,19800.0,13500.0,6300.0
+872,TXN-00872,2025-08-22,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+873,TXN-00873,2025-08-17,Unknown,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+874,TXN-00874,2025-08-07,Kano,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+875,TXN-00875,2025-08-30,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+876,TXN-00876,2025-08-27,Port Harcourt,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+877,TXN-00877,2025-08-26,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+878,TXN-00878,2025-08-17,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+879,TXN-00879,2025-08-18,Abuja,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+880,TXN-00880,2025-08-19,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Returned,18000.0,0,0,0
+881,TXN-00881,2025-08-11,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Returned,35000.0,0,0,0
+882,TXN-00882,2025-08-28,Abuja,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+883,TXN-00883,2025-08-18,Kano,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+884,TXN-00884,2025-08-04,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+885,TXN-00885,2025-08-18,Abuja,Fashion,Handbag,In-store,2,22000.0,13500.0,0.1,Completed,44000.0,39600.0,27000.0,12600.0
+886,TXN-00886,2025-08-01,Port Harcourt,Beauty,Moisturizer,In-store,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+887,TXN-00887,2025-08-14,Port Harcourt,Beauty,Body wash,In-store,2,4500.0,2300.0,0.05,Completed,9000.0,8550.0,4600.0,3950.0
+888,TXN-00888,2025-08-03,Port Harcourt,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+889,TXN-00889,2025-08-10,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+890,TXN-00890,2025-08-23,Lagos,Beauty,Moisturizer,In-store,4,6500.0,3500.0,0.0,Completed,26000.0,26000.0,14000.0,12000.0
+891,TXN-00891,2025-08-20,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+892,TXN-00892,2025-08-07,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+893,TXN-00893,2025-08-12,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+894,TXN-00894,2025-08-29,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+895,TXN-00895,2025-08-08,Kano,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+896,TXN-00896,2025-08-12,Port Harcourt,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Returned,17000.0,0,0,0
+897,TXN-00897,2025-08-16,Port Harcourt,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+898,TXN-00898,2025-08-05,Lagos,Home,Bedsheet,Online,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+899,TXN-00899,2025-08-11,Kano,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+900,TXN-00900,2025-08-02,Port Harcourt,Electronics,Power bank,Online,2,15000.0,9500.0,0.05,Completed,30000.0,28500.0,19000.0,9500.0
+901,TXN-00901,2025-08-24,Port Harcourt,Electronics,Power bank,Online,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+902,TXN-00902,2025-08-18,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.1,Completed,4500.0,4050.0,2300.0,1750.0
+903,TXN-00903,2025-08-10,Port Harcourt,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Returned,56000.0,0,0,0
+904,TXN-00904,2025-08-31,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+905,TXN-00905,2025-08-12,Lagos,Home,Desk lamp,In-store,1,12000.0,7200.0,0.15,Completed,12000.0,10200.0,7200.0,3000.0
+906,TXN-00906,2025-08-05,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+907,TXN-00907,2025-08-13,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+908,TXN-00908,2025-08-10,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+909,TXN-00909,2025-08-15,Port Harcourt,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+910,TXN-00910,2025-09-14,Lagos,Electronics,Headphones,Online,3,18000.0,10500.0,0.05,Completed,54000.0,51300.0,31500.0,19800.0
+911,TXN-00911,2025-09-02,Port Harcourt,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+912,TXN-00912,2025-09-09,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+913,TXN-00913,2025-09-13,Kano,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+914,TXN-00914,2025-09-26,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+915,TXN-00915,2025-09-20,Abuja,Fashion,Sneakers,Online,2,28000.0,17500.0,0.1,Completed,56000.0,50400.0,35000.0,15400.0
+916,TXN-00916,2025-09-02,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+917,TXN-00917,2025-09-11,Port Harcourt,Fashion,Sneakers,Online,3,28000.0,17500.0,0.1,Completed,84000.0,75600.0,52500.0,23100.0
+918,TXN-00918,2025-09-15,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+919,TXN-00919,2025-09-15,Kano,Electronics,Power bank,Online,3,15000.0,9500.0,0.0,Completed,45000.0,45000.0,28500.0,16500.0
+920,TXN-00920,2025-09-23,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+921,TXN-00921,2025-09-01,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+922,TXN-00922,2025-09-02,Kano,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+923,TXN-00923,2025-09-16,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+924,TXN-00924,2025-09-20,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.1,Completed,35000.0,31500.0,22500.0,9000.0
+925,TXN-00925,2025-09-15,Lagos,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+926,TXN-00926,2025-09-16,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+927,TXN-00927,2025-09-17,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.15,Completed,15000.0,12750.0,9500.0,3250.0
+928,TXN-00928,2025-09-28,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.1,Completed,22000.0,19800.0,13500.0,6300.0
+929,TXN-00929,2025-09-13,Port Harcourt,Home,Cookware set,In-store,2,35000.0,22500.0,0.0,Completed,70000.0,70000.0,45000.0,25000.0
+930,TXN-00930,2025-09-01,Lagos,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+931,TXN-00931,2025-09-18,Abuja,Fashion,Sneakers,Online,2,28000.0,17500.0,0.1,Completed,56000.0,50400.0,35000.0,15400.0
+932,TXN-00932,2025-09-18,Abuja,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+933,TXN-00933,2025-09-06,Kano,Fashion,T-shirt,In-store,3,9000.0,5000.0,0.0,Returned,27000.0,0,0,0
+934,TXN-00934,2025-09-27,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+935,TXN-00935,2025-09-26,Kano,Fashion,T-shirt,Online,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+936,TXN-00936,2025-09-13,Abuja,Fashion,Handbag,Online,4,22000.0,13500.0,0,Completed,88000.0,88000.0,54000.0,34000.0
+937,TXN-00937,2025-09-16,Port Harcourt,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.1,Completed,18000.0,16200.0,10000.0,6200.0
+938,TXN-00938,2025-09-30,Abuja,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+939,TXN-00939,2025-09-15,Kano,Electronics,Headphones,In-store,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+940,TXN-00940,2025-09-14,Abuja,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+941,TXN-00941,2025-09-09,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Returned,28000.0,0,0,0
+942,TXN-00942,2025-09-19,Kano,Electronics,Headphones,Online,4,18000.0,10500.0,0.0,Completed,72000.0,72000.0,42000.0,30000.0
+943,TXN-00943,2025-09-29,Lagos,Electronics,Bluetooth speaker,In-store,3,26000.0,17000.0,0.05,Completed,78000.0,74100.0,51000.0,23100.0
+944,TXN-00944,2025-09-15,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+945,TXN-00945,2025-09-20,Port Harcourt,Beauty,Body wash,Online,2,4500.0,2300.0,0.05,Completed,9000.0,8550.0,4600.0,3950.0
+946,TXN-00946,2025-09-27,Unknown,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+947,TXN-00947,2025-09-25,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+948,TXN-00948,2025-09-21,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+949,TXN-00949,2025-09-22,Port Harcourt,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+950,TXN-00950,2025-09-04,Kano,Home,Cookware set,In-store,3,35000.0,22500.0,0.0,Completed,105000.0,105000.0,67500.0,37500.0
+951,TXN-00951,2025-09-25,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+952,TXN-00952,2025-09-07,Port Harcourt,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+953,TXN-00953,2025-09-10,Port Harcourt,Electronics,Bluetooth speaker,Online,4,26000.0,17000.0,0.05,Completed,104000.0,98800.0,68000.0,30800.0
+954,TXN-00954,2025-09-27,Kano,Beauty,Perfume,In-store,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+955,TXN-00955,2025-09-06,Kano,Home,Desk lamp,Online,2,12000.0,7200.0,0.05,Completed,24000.0,22800.0,14400.0,8400.0
+956,TXN-00956,2025-09-28,Lagos,Home,Desk lamp,Online,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+957,TXN-00957,2025-09-25,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+958,TXN-00958,2025-09-20,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+959,TXN-00959,2025-09-13,Kano,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+960,TXN-00960,2025-09-26,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+961,TXN-00961,2025-09-14,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+962,TXN-00962,2025-09-30,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+963,TXN-00963,2025-09-29,Port Harcourt,Electronics,Power bank,In-store,1,15000.0,9500.0,0.15,Completed,15000.0,12750.0,9500.0,3250.0
+964,TXN-00964,2025-09-29,Abuja,Beauty,Body wash,Online,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+965,TXN-00965,2025-09-03,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+966,TXN-00966,2025-09-27,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+967,TXN-00967,2025-09-21,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+968,TXN-00968,2025-09-23,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+969,TXN-00969,2025-09-20,Abuja,Beauty,Perfume,In-store,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+970,TXN-00970,2025-09-19,Abuja,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+971,TXN-00971,2025-09-11,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+972,TXN-00972,2025-09-19,Abuja,Beauty,Perfume,In-store,2,17000.0,9000.0,0.0,Returned,34000.0,0,0,0
+973,TXN-00973,2025-09-12,Kano,Fashion,Handbag,Online,1,22000.0,13500.0,0.15,Completed,22000.0,18700.0,13500.0,5200.0
+974,TXN-00974,2025-09-21,Abuja,Beauty,Body wash,In-store,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+975,TXN-00975,2025-09-17,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.1,Completed,9000.0,8100.0,5000.0,3100.0
+976,TXN-00976,2025-09-17,Port Harcourt,Fashion,T-shirt,Online,1,9000.0,5000.0,0.05,Returned,9000.0,0,0,0
+977,TXN-00977,2025-09-16,Port Harcourt,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+978,TXN-00978,2025-09-01,Lagos,Beauty,Perfume,Online,2,17000.0,9000.0,0.1,Completed,34000.0,30600.0,18000.0,12600.0
+979,TXN-00979,2025-09-02,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+980,TXN-00980,2025-09-22,Kano,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+981,TXN-00981,2025-09-11,Kano,Electronics,Power bank,Online,3,15000.0,9500.0,0.1,Completed,45000.0,40500.0,28500.0,12000.0
+982,TXN-00982,2025-09-21,Port Harcourt,Home,Bedsheet,Online,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+983,TXN-00983,2025-09-24,Kano,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+984,TXN-00984,2025-09-16,Lagos,Home,Desk lamp,Online,3,12000.0,7200.0,0.05,Completed,36000.0,34200.0,21600.0,12600.0
+985,TXN-00985,2025-09-03,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+986,TXN-00986,2025-09-10,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0,Completed,9000.0,9000.0,5000.0,4000.0
+987,TXN-00987,2025-09-26,Lagos,Electronics,Power bank,In-store,2,15000.0,9500.0,0.05,Completed,30000.0,28500.0,19000.0,9500.0
+988,TXN-00988,2025-09-27,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+989,TXN-00989,2025-09-17,Abuja,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+990,TXN-00990,2025-09-10,Abuja,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+991,TXN-00991,2025-09-30,Port Harcourt,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+992,TXN-00992,2025-09-15,Port Harcourt,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+993,TXN-00993,2025-09-17,Abuja,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+994,TXN-00994,2025-09-20,Port Harcourt,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+995,TXN-00995,2025-09-26,Lagos,Home,Cookware set,In-store,2,35000.0,22500.0,0.05,Returned,70000.0,0,0,0
+996,TXN-00996,2025-09-11,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+997,TXN-00997,2025-09-20,Kano,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+998,TXN-00998,2025-09-01,Port Harcourt,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+999,TXN-00999,2025-09-09,Port Harcourt,Beauty,Perfume,Online,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+1000,TXN-01000,2025-09-16,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.1,Completed,35000.0,31500.0,22500.0,9000.0
+1001,TXN-01001,2025-09-04,Kano,Fashion,Handbag,Online,3,22000.0,13500.0,0.1,Completed,66000.0,59400.0,40500.0,18900.0
+1002,TXN-01002,2025-09-02,Lagos,Beauty,Moisturizer,In-store,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+1003,TXN-01003,2025-09-25,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+1004,TXN-01004,2025-09-27,Abuja,Fashion,Sneakers,Online,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+1005,TXN-01005,2025-09-20,Kano,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1006,TXN-01006,2025-09-04,Kano,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1007,TXN-01007,2025-09-30,Kano,Fashion,Sneakers,Online,3,28000.0,17500.0,0.05,Completed,84000.0,79800.0,52500.0,27300.0
+1008,TXN-01008,2025-09-10,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+1009,TXN-01009,2025-09-23,Port Harcourt,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+1010,TXN-01010,2025-09-17,Abuja,Fashion,T-shirt,Online,3,9000.0,5000.0,0.1,Completed,27000.0,24300.0,15000.0,9300.0
+1011,TXN-01011,2025-09-26,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.1,Completed,9000.0,8100.0,5000.0,3100.0
+1012,TXN-01012,2025-09-27,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.15,Completed,4500.0,3825.0,2300.0,1525.0
+1013,TXN-01013,2025-09-19,Lagos,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1014,TXN-01014,2025-09-11,Abuja,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+1015,TXN-01015,2025-09-01,Kano,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1016,TXN-01016,2025-09-20,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.05,Completed,52000.0,49400.0,34000.0,15400.0
+1017,TXN-01017,2025-09-13,Port Harcourt,Beauty,Perfume,Online,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+1018,TXN-01018,2025-09-18,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.1,Completed,52000.0,46800.0,34000.0,12800.0
+1019,TXN-01019,2025-09-07,Kano,Fashion,Handbag,In-store,4,22000.0,13500.0,0.0,Completed,88000.0,88000.0,54000.0,34000.0
+1020,TXN-01020,2025-09-05,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+1021,TXN-01021,2025-09-24,Kano,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1022,TXN-01022,2025-09-05,Kano,Fashion,Handbag,Online,1,22000.0,13500.0,0.1,Completed,22000.0,19800.0,13500.0,6300.0
+1023,TXN-01023,2025-09-30,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1024,TXN-01024,2025-09-08,Abuja,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+1025,TXN-01025,2025-09-19,Kano,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1026,TXN-01026,2025-09-14,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+1027,TXN-01027,2025-09-24,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+1028,TXN-01028,2025-09-11,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+1029,TXN-01029,2025-09-14,Port Harcourt,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1030,TXN-01030,2025-09-05,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Returned,22000.0,0,0,0
+1031,TXN-01031,2025-09-30,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+1032,TXN-01032,2025-09-11,Lagos,Electronics,Bluetooth speaker,In-store,4,26000.0,17000.0,0.0,Completed,104000.0,104000.0,68000.0,36000.0
+1033,TXN-01033,2025-09-30,Unknown,Fashion,Handbag,Online,1,22000.0,13500.0,0.05,Returned,22000.0,0,0,0
+1034,TXN-01034,2025-09-28,Abuja,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Returned,28000.0,0,0,0
+1035,TXN-01035,2025-09-23,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+1036,TXN-01036,2025-09-21,Port Harcourt,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1037,TXN-01037,2025-09-29,Lagos,Fashion,T-shirt,Online,4,9000.0,5000.0,0,Completed,36000.0,36000.0,20000.0,16000.0
+1038,TXN-01038,2025-09-30,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1039,TXN-01039,2025-09-08,Lagos,Home,Bedsheet,Online,2,14000.0,8500.0,0.05,Completed,28000.0,26600.0,17000.0,9600.0
+1040,TXN-01040,2025-09-26,Abuja,Electronics,Power bank,In-store,4,15000.0,9500.0,0.15,Completed,60000.0,51000.0,38000.0,13000.0
+1041,TXN-01041,2025-09-25,Port Harcourt,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+1042,TXN-01042,2025-10-02,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+1043,TXN-01043,2025-10-16,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1044,TXN-01044,2025-10-30,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Returned,26000.0,0,0,0
+1045,TXN-01045,2025-10-25,Port Harcourt,Fashion,Handbag,In-store,1,22000.0,13500.0,0,Completed,22000.0,22000.0,13500.0,8500.0
+1046,TXN-01046,2025-10-03,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1047,TXN-01047,2025-10-03,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1048,TXN-01048,2025-10-17,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+1049,TXN-01049,2025-10-01,Abuja,Home,Cookware set,In-store,1,35000.0,22500.0,0.1,Completed,35000.0,31500.0,22500.0,9000.0
+1050,TXN-01050,2025-10-08,Abuja,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1051,TXN-01051,2025-10-13,Lagos,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+1052,TXN-01052,2025-10-07,Lagos,Beauty,Moisturizer,In-store,2,6500.0,3500.0,0.1,Completed,13000.0,11700.0,7000.0,4700.0
+1053,TXN-01053,2025-10-17,Abuja,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+1054,TXN-01054,2025-10-14,Abuja,Home,Bedsheet,In-store,2,14000.0,8500.0,0.0,Returned,28000.0,0,0,0
+1055,TXN-01055,2025-10-22,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+1056,TXN-01056,2025-10-07,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+1057,TXN-01057,2025-10-24,Abuja,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.05,Returned,28000.0,0,0,0
+1058,TXN-01058,2025-10-28,Lagos,Home,Desk lamp,In-store,1,12000.0,7200.0,0.05,Completed,12000.0,11400.0,7200.0,4200.0
+1059,TXN-01059,2025-10-29,Port Harcourt,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+1060,TXN-01060,2025-10-15,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.05,Completed,22000.0,20900.0,13500.0,7400.0
+1061,TXN-01061,2025-10-04,Abuja,Home,Cookware set,Online,1,35000.0,22500.0,0.15,Returned,35000.0,0,0,0
+1062,TXN-01062,2025-10-26,Kano,Beauty,Body wash,Online,2,4500.0,2300.0,0.1,Completed,9000.0,8100.0,4600.0,3500.0
+1063,TXN-01063,2025-10-02,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.1,Completed,30000.0,27000.0,19000.0,8000.0
+1064,TXN-01064,2025-10-03,Lagos,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+1065,TXN-01065,2025-10-17,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1066,TXN-01066,2025-10-24,Lagos,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+1067,TXN-01067,2025-10-07,Lagos,Beauty,Body wash,In-store,3,4500.0,2300.0,0.0,Returned,13500.0,0,0,0
+1068,TXN-01068,2025-10-19,Lagos,Home,Desk lamp,Online,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+1069,TXN-01069,2025-10-20,Port Harcourt,Electronics,Power bank,In-store,2,15000.0,9500.0,0.15,Completed,30000.0,25500.0,19000.0,6500.0
+1070,TXN-01070,2025-10-16,Lagos,Electronics,Headphones,In-store,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1071,TXN-01071,2025-10-16,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1072,TXN-01072,2025-10-30,Port Harcourt,Beauty,Moisturizer,In-store,2,6500.0,3500.0,0.1,Completed,13000.0,11700.0,7000.0,4700.0
+1073,TXN-01073,2025-10-24,Kano,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+1074,TXN-01074,2025-10-21,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Returned,28000.0,0,0,0
+1075,TXN-01075,2025-10-28,Abuja,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1076,TXN-01076,2025-10-16,Kano,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1077,TXN-01077,2025-10-05,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+1078,TXN-01078,2025-10-04,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.1,Completed,6500.0,5850.0,3500.0,2350.0
+1079,TXN-01079,2025-10-10,Port Harcourt,Beauty,Perfume,In-store,3,17000.0,9000.0,0.15,Completed,51000.0,43350.0,27000.0,16350.0
+1080,TXN-01080,2025-10-13,Lagos,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1081,TXN-01081,2025-10-28,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+1082,TXN-01082,2025-10-16,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.1,Completed,4500.0,4050.0,2300.0,1750.0
+1083,TXN-01083,2025-10-20,Lagos,Beauty,Moisturizer,In-store,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+1084,TXN-01084,2025-10-27,Lagos,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1085,TXN-01085,2025-10-26,Abuja,Beauty,Body wash,Online,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+1086,TXN-01086,2025-10-27,Kano,Fashion,Sneakers,Online,3,28000.0,17500.0,0.05,Completed,84000.0,79800.0,52500.0,27300.0
+1087,TXN-01087,2025-10-08,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.15,Returned,9000.0,0,0,0
+1088,TXN-01088,2025-10-12,Lagos,Home,Desk lamp,Online,4,12000.0,7200.0,0.05,Completed,48000.0,45600.0,28800.0,16800.0
+1089,TXN-01089,2025-10-05,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1090,TXN-01090,2025-10-11,Lagos,Beauty,Moisturizer,Online,3,6500.0,3500.0,0.0,Completed,19500.0,19500.0,10500.0,9000.0
+1091,TXN-01091,2025-10-03,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.1,Returned,30000.0,0,0,0
+1092,TXN-01092,2025-10-31,Kano,Fashion,Handbag,In-store,1,22000.0,13500.0,0.1,Completed,22000.0,19800.0,13500.0,6300.0
+1093,TXN-01093,2025-10-31,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1094,TXN-01094,2025-10-23,Port Harcourt,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+1095,TXN-01095,2025-10-08,Kano,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1096,TXN-01096,2025-10-03,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+1097,TXN-01097,2025-10-18,Port Harcourt,Electronics,Headphones,Online,2,18000.0,10500.0,0.1,Completed,36000.0,32400.0,21000.0,11400.0
+1098,TXN-01098,2025-10-10,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1099,TXN-01099,2025-10-22,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0,Completed,26000.0,26000.0,17000.0,9000.0
+1100,TXN-01100,2025-10-08,Port Harcourt,Fashion,Handbag,In-store,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+1101,TXN-01101,2025-10-21,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+1102,TXN-01102,2025-10-15,Abuja,Home,Desk lamp,Online,3,12000.0,7200.0,0.0,Returned,36000.0,0,0,0
+1103,TXN-01103,2025-10-01,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+1104,TXN-01104,2025-10-06,Lagos,Home,Desk lamp,Online,2,12000.0,7200.0,0.15,Completed,24000.0,20400.0,14400.0,6000.0
+1105,TXN-01105,2025-10-31,Abuja,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+1106,TXN-01106,2025-10-16,Abuja,Beauty,Perfume,In-store,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+1107,TXN-01107,2025-10-18,Abuja,Electronics,Power bank,Online,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+1108,TXN-01108,2025-10-06,Port Harcourt,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1109,TXN-01109,2025-10-13,Port Harcourt,Home,Bedsheet,In-store,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+1110,TXN-01110,2025-10-23,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1111,TXN-01111,2025-10-24,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+1112,TXN-01112,2025-10-10,Kano,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1113,TXN-01113,2025-10-02,Lagos,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.05,Completed,78000.0,74100.0,51000.0,23100.0
+1114,TXN-01114,2025-10-29,Abuja,Home,Bedsheet,Online,3,14000.0,8500.0,0.0,Completed,42000.0,42000.0,25500.0,16500.0
+1115,TXN-01115,2025-10-31,Abuja,Fashion,Handbag,Online,3,22000.0,13500.0,0.05,Completed,66000.0,62700.0,40500.0,22200.0
+1116,TXN-01116,2025-10-01,Kano,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.05,Completed,13000.0,12350.0,7000.0,5350.0
+1117,TXN-01117,2025-10-06,Lagos,Electronics,Bluetooth speaker,In-store,4,26000.0,17000.0,0.05,Completed,104000.0,98800.0,68000.0,30800.0
+1118,TXN-01118,2025-10-22,Port Harcourt,Home,Bedsheet,In-store,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+1119,TXN-01119,2025-10-06,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+1120,TXN-01120,2025-10-16,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1121,TXN-01121,2025-10-14,Port Harcourt,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1122,TXN-01122,2025-10-02,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1123,TXN-01123,2025-10-31,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1124,TXN-01124,2025-10-31,Kano,Home,Cookware set,Online,2,35000.0,22500.0,0,Completed,70000.0,70000.0,45000.0,25000.0
+1125,TXN-01125,2025-10-22,Abuja,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.1,Completed,18000.0,16200.0,10000.0,6200.0
+1126,TXN-01126,2025-10-20,Kano,Electronics,Headphones,Online,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+1127,TXN-01127,2025-10-12,Lagos,Electronics,Power bank,In-store,2,15000.0,9500.0,0.1,Completed,30000.0,27000.0,19000.0,8000.0
+1128,TXN-01128,2025-10-05,Lagos,Fashion,Sneakers,Online,3,28000.0,17500.0,0.0,Completed,84000.0,84000.0,52500.0,31500.0
+1129,TXN-01129,2025-10-12,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1130,TXN-01130,2025-10-02,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+1131,TXN-01131,2025-10-07,Lagos,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.1,Completed,56000.0,50400.0,35000.0,15400.0
+1132,TXN-01132,2025-10-13,Lagos,Home,Cookware set,Online,3,35000.0,22500.0,0.05,Completed,105000.0,99750.0,67500.0,32250.0
+1133,TXN-01133,2025-10-01,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1134,TXN-01134,2025-10-12,Lagos,Electronics,Power bank,Online,3,15000.0,9500.0,0.0,Completed,45000.0,45000.0,28500.0,16500.0
+1135,TXN-01135,2025-10-17,Kano,Electronics,Power bank,Online,2,15000.0,9500.0,0,Completed,30000.0,30000.0,19000.0,11000.0
+1136,TXN-01136,2025-10-15,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1137,TXN-01137,2025-10-15,Port Harcourt,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+1138,TXN-01138,2025-10-18,Lagos,Home,Bedsheet,In-store,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+1139,TXN-01139,2025-10-06,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.15,Completed,28000.0,23800.0,17500.0,6300.0
+1140,TXN-01140,2025-10-09,Abuja,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.1,Completed,52000.0,46800.0,34000.0,12800.0
+1141,TXN-01141,2025-10-15,Abuja,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+1142,TXN-01142,2025-10-28,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Returned,26000.0,0,0,0
+1143,TXN-01143,2025-10-07,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.1,Completed,52000.0,46800.0,34000.0,12800.0
+1144,TXN-01144,2025-10-25,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.1,Completed,30000.0,27000.0,19000.0,8000.0
+1145,TXN-01145,2025-10-21,Abuja,Beauty,Moisturizer,In-store,3,6500.0,3500.0,0.05,Completed,19500.0,18525.0,10500.0,8025.0
+1146,TXN-01146,2025-10-11,Lagos,Home,Desk lamp,In-store,2,12000.0,7200.0,0.05,Completed,24000.0,22800.0,14400.0,8400.0
+1147,TXN-01147,2025-10-09,Abuja,Fashion,Sneakers,In-store,3,28000.0,17500.0,0.0,Completed,84000.0,84000.0,52500.0,31500.0
+1148,TXN-01148,2025-10-14,Lagos,Beauty,Body wash,Online,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+1149,TXN-01149,2025-10-29,Lagos,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+1150,TXN-01150,2025-10-27,Abuja,Electronics,Headphones,In-store,3,18000.0,10500.0,0.0,Completed,54000.0,54000.0,31500.0,22500.0
+1151,TXN-01151,2025-10-07,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1152,TXN-01152,2025-10-21,Abuja,Electronics,Headphones,Online,3,18000.0,10500.0,0.1,Completed,54000.0,48600.0,31500.0,17100.0
+1153,TXN-01153,2025-10-03,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1154,TXN-01154,2025-10-25,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+1155,TXN-01155,2025-10-19,Lagos,Fashion,Handbag,In-store,2,22000.0,13500.0,0.1,Completed,44000.0,39600.0,27000.0,12600.0
+1156,TXN-01156,2025-10-05,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+1157,TXN-01157,2025-10-28,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+1158,TXN-01158,2025-10-18,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.15,Completed,4500.0,3825.0,2300.0,1525.0
+1159,TXN-01159,2025-10-18,Abuja,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.15,Completed,56000.0,47600.0,35000.0,12600.0
+1160,TXN-01160,2025-10-25,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Returned,28000.0,0,0,0
+1161,TXN-01161,2025-10-08,Kano,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1162,TXN-01162,2025-10-09,Port Harcourt,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+1163,TXN-01163,2025-10-20,Abuja,Beauty,Body wash,In-store,3,4500.0,2300.0,0.0,Completed,13500.0,13500.0,6900.0,6600.0
+1164,TXN-01164,2025-10-28,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+1165,TXN-01165,2025-10-02,Kano,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.05,Completed,78000.0,74100.0,51000.0,23100.0
+1166,TXN-01166,2025-10-01,Port Harcourt,Beauty,Moisturizer,In-store,3,6500.0,3500.0,0.05,Completed,19500.0,18525.0,10500.0,8025.0
+1167,TXN-01167,2025-10-09,Lagos,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+1168,TXN-01168,2025-10-20,Kano,Fashion,Sneakers,Online,4,28000.0,17500.0,0.05,Completed,112000.0,106400.0,70000.0,36400.0
+1169,TXN-01169,2025-10-13,Port Harcourt,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Returned,35000.0,0,0,0
+1170,TXN-01170,2025-10-22,Abuja,Home,Bedsheet,Online,1,14000.0,8500.0,0.0,Returned,14000.0,0,0,0
+1171,TXN-01171,2025-10-03,Kano,Home,Desk lamp,Online,1,12000.0,7200.0,0.1,Returned,12000.0,0,0,0
+1172,TXN-01172,2025-10-01,Kano,Electronics,Bluetooth speaker,In-store,4,26000.0,17000.0,0.0,Completed,104000.0,104000.0,68000.0,36000.0
+1173,TXN-01173,2025-10-14,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.15,Completed,14000.0,11900.0,8500.0,3400.0
+1174,TXN-01174,2025-10-11,Kano,Fashion,Sneakers,In-store,3,28000.0,17500.0,0.1,Completed,84000.0,75600.0,52500.0,23100.0
+1175,TXN-01175,2025-10-15,Port Harcourt,Beauty,Moisturizer,Online,3,6500.0,3500.0,0.0,Completed,19500.0,19500.0,10500.0,9000.0
+1176,TXN-01176,2025-10-07,Lagos,Beauty,Body wash,In-store,3,4500.0,2300.0,0.0,Returned,13500.0,0,0,0
+1177,TXN-01177,2025-10-18,Lagos,Beauty,Body wash,Online,3,4500.0,2300.0,0.0,Completed,13500.0,13500.0,6900.0,6600.0
+1178,TXN-01178,2025-10-28,Port Harcourt,Beauty,Body wash,In-store,1,4500.0,2300.0,0.1,Completed,4500.0,4050.0,2300.0,1750.0
+1179,TXN-01179,2025-10-27,Abuja,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+1180,TXN-01180,2025-10-16,Abuja,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+1181,TXN-01181,2025-11-04,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+1182,TXN-01182,2025-11-25,Lagos,Fashion,Handbag,In-store,1,22000.0,13500.0,0.1,Completed,22000.0,19800.0,13500.0,6300.0
+1183,TXN-01183,2025-11-01,Lagos,Beauty,Body wash,Online,2,4500.0,2300.0,0.15,Completed,9000.0,7650.0,4600.0,3050.0
+1184,TXN-01184,2025-11-29,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+1185,TXN-01185,2025-11-26,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+1186,TXN-01186,2025-11-16,Port Harcourt,Electronics,Power bank,Online,3,15000.0,9500.0,0.1,Completed,45000.0,40500.0,28500.0,12000.0
+1187,TXN-01187,2025-11-28,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.1,Completed,4500.0,4050.0,2300.0,1750.0
+1188,TXN-01188,2025-11-15,Lagos,Electronics,Headphones,Online,3,18000.0,10500.0,0.0,Completed,54000.0,54000.0,31500.0,22500.0
+1189,TXN-01189,2025-11-08,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1190,TXN-01190,2025-11-11,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+1191,TXN-01191,2025-11-02,Port Harcourt,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1192,TXN-01192,2025-11-27,Abuja,Electronics,Power bank,Online,3,15000.0,9500.0,0.0,Completed,45000.0,45000.0,28500.0,16500.0
+1193,TXN-01193,2025-11-20,Port Harcourt,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+1194,TXN-01194,2025-11-24,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1195,TXN-01195,2025-11-29,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+1196,TXN-01196,2025-11-22,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Returned,28000.0,0,0,0
+1197,TXN-01197,2025-11-22,Kano,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Returned,9000.0,0,0,0
+1198,TXN-01198,2025-11-03,Lagos,Fashion,Handbag,Online,4,22000.0,13500.0,0.0,Completed,88000.0,88000.0,54000.0,34000.0
+1199,TXN-01199,2025-11-10,Abuja,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+1200,TXN-01200,2025-11-14,Port Harcourt,Fashion,Handbag,Online,4,22000.0,13500.0,0.0,Completed,88000.0,88000.0,54000.0,34000.0
+1201,TXN-01201,2025-11-17,Port Harcourt,Beauty,Perfume,Online,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+1202,TXN-01202,2025-11-03,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1203,TXN-01203,2025-11-11,Lagos,Home,Cookware set,In-store,3,35000.0,22500.0,0.0,Completed,105000.0,105000.0,67500.0,37500.0
+1204,TXN-01204,2025-11-20,Abuja,Home,Bedsheet,Online,2,14000.0,8500.0,0.1,Completed,28000.0,25200.0,17000.0,8200.0
+1205,TXN-01205,2025-11-12,Abuja,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+1206,TXN-01206,2025-11-20,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1207,TXN-01207,2025-11-27,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.05,Returned,14000.0,0,0,0
+1208,TXN-01208,2025-11-08,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1209,TXN-01209,2025-11-15,Abuja,Fashion,T-shirt,Online,3,9000.0,5000.0,0.05,Completed,27000.0,25650.0,15000.0,10650.0
+1210,TXN-01210,2025-11-16,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1211,TXN-01211,2025-11-28,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1212,TXN-01212,2025-11-11,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1213,TXN-01213,2025-11-02,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+1214,TXN-01214,2025-11-26,Port Harcourt,Home,Cookware set,Online,2,35000.0,22500.0,0.0,Completed,70000.0,70000.0,45000.0,25000.0
+1215,TXN-01215,2025-11-19,Lagos,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+1216,TXN-01216,2025-11-21,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+1217,TXN-01217,2025-11-13,Abuja,Home,Cookware set,In-store,1,35000.0,22500.0,0.15,Completed,35000.0,29750.0,22500.0,7250.0
+1218,TXN-01218,2025-11-06,Port Harcourt,Electronics,Headphones,Online,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+1219,TXN-01219,2025-11-17,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1220,TXN-01220,2025-11-28,Lagos,Fashion,Handbag,In-store,1,22000.0,13500.0,0,Completed,22000.0,22000.0,13500.0,8500.0
+1221,TXN-01221,2025-11-08,Kano,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+1222,TXN-01222,2025-11-19,Port Harcourt,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+1223,TXN-01223,2025-11-04,Abuja,Fashion,Handbag,In-store,1,22000.0,13500.0,0,Completed,22000.0,22000.0,13500.0,8500.0
+1224,TXN-01224,2025-11-19,Abuja,Fashion,T-shirt,In-store,3,9000.0,5000.0,0.15,Completed,27000.0,22950.0,15000.0,7950.0
+1225,TXN-01225,2025-11-23,Port Harcourt,Home,Desk lamp,Online,1,12000.0,7200.0,0,Completed,12000.0,12000.0,7200.0,4800.0
+1226,TXN-01226,2025-11-21,Lagos,Beauty,Moisturizer,Online,3,6500.0,3500.0,0.15,Completed,19500.0,16575.0,10500.0,6075.0
+1227,TXN-01227,2025-11-07,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.05,Completed,22000.0,20900.0,13500.0,7400.0
+1228,TXN-01228,2025-11-07,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+1229,TXN-01229,2025-11-01,Port Harcourt,Electronics,Headphones,In-store,3,18000.0,10500.0,0.1,Completed,54000.0,48600.0,31500.0,17100.0
+1230,TXN-01230,2025-11-13,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.15,Completed,9000.0,7650.0,5000.0,2650.0
+1231,TXN-01231,2025-11-22,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+1232,TXN-01232,2025-11-28,Lagos,Electronics,Power bank,In-store,3,15000.0,9500.0,0.0,Completed,45000.0,45000.0,28500.0,16500.0
+1233,TXN-01233,2025-11-25,Kano,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+1234,TXN-01234,2025-11-08,Kano,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1235,TXN-01235,2025-11-19,Kano,Home,Bedsheet,Online,2,14000.0,8500.0,0.05,Completed,28000.0,26600.0,17000.0,9600.0
+1236,TXN-01236,2025-11-16,Lagos,Beauty,Perfume,Online,4,17000.0,9000.0,0.1,Completed,68000.0,61200.0,36000.0,25200.0
+1237,TXN-01237,2025-11-30,Kano,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1238,TXN-01238,2025-11-17,Abuja,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.0,Returned,13000.0,0,0,0
+1239,TXN-01239,2025-11-17,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.05,Completed,35000.0,33250.0,22500.0,10750.0
+1240,TXN-01240,2025-11-30,Port Harcourt,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1241,TXN-01241,2025-11-28,Abuja,Electronics,Power bank,Online,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+1242,TXN-01242,2025-11-15,Port Harcourt,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Returned,18000.0,0,0,0
+1243,TXN-01243,2025-11-08,Lagos,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+1244,TXN-01244,2025-11-14,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+1245,TXN-01245,2025-11-18,Abuja,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1246,TXN-01246,2025-11-09,Lagos,Home,Desk lamp,In-store,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+1247,TXN-01247,2025-11-15,Abuja,Home,Bedsheet,Online,2,14000.0,8500.0,0,Completed,28000.0,28000.0,17000.0,11000.0
+1248,TXN-01248,2025-11-21,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+1249,TXN-01249,2025-11-13,Lagos,Beauty,Body wash,Online,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+1250,TXN-01250,2025-11-05,Lagos,Electronics,Headphones,Online,3,18000.0,10500.0,0.0,Completed,54000.0,54000.0,31500.0,22500.0
+1251,TXN-01251,2025-11-12,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+1252,TXN-01252,2025-11-14,Lagos,Fashion,Handbag,Online,3,22000.0,13500.0,0.0,Completed,66000.0,66000.0,40500.0,25500.0
+1253,TXN-01253,2025-11-09,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1254,TXN-01254,2025-11-26,Abuja,Beauty,Body wash,In-store,4,4500.0,2300.0,0.0,Completed,18000.0,18000.0,9200.0,8800.0
+1255,TXN-01255,2025-11-14,Port Harcourt,Electronics,Power bank,In-store,4,15000.0,9500.0,0.0,Completed,60000.0,60000.0,38000.0,22000.0
+1256,TXN-01256,2025-11-27,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1257,TXN-01257,2025-11-25,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.15,Returned,9000.0,0,0,0
+1258,TXN-01258,2025-11-18,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Returned,28000.0,0,0,0
+1259,TXN-01259,2025-11-23,Kano,Home,Cookware set,In-store,2,35000.0,22500.0,0.0,Completed,70000.0,70000.0,45000.0,25000.0
+1260,TXN-01260,2025-11-11,Lagos,Beauty,Body wash,Online,4,4500.0,2300.0,0.05,Completed,18000.0,17100.0,9200.0,7900.0
+1261,TXN-01261,2025-11-08,Abuja,Beauty,Perfume,In-store,2,17000.0,9000.0,0.1,Completed,34000.0,30600.0,18000.0,12600.0
+1262,TXN-01262,2025-11-03,Lagos,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+1263,TXN-01263,2025-11-02,Port Harcourt,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1264,TXN-01264,2025-11-24,Abuja,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1265,TXN-01265,2025-11-13,Abuja,Home,Bedsheet,In-store,2,14000.0,8500.0,0.0,Completed,28000.0,28000.0,17000.0,11000.0
+1266,TXN-01266,2025-11-13,Abuja,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1267,TXN-01267,2025-11-03,Port Harcourt,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1268,TXN-01268,2025-11-11,Lagos,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+1269,TXN-01269,2025-11-12,Abuja,Home,Bedsheet,Online,2,14000.0,8500.0,0.1,Completed,28000.0,25200.0,17000.0,8200.0
+1270,TXN-01270,2025-11-14,Kano,Home,Desk lamp,In-store,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+1271,TXN-01271,2025-11-07,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.05,Completed,12000.0,11400.0,7200.0,4200.0
+1272,TXN-01272,2025-11-05,Lagos,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1273,TXN-01273,2025-11-16,Unknown,Beauty,Body wash,Online,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+1274,TXN-01274,2025-11-24,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1275,TXN-01275,2025-11-23,Lagos,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1276,TXN-01276,2025-11-16,Abuja,Beauty,Body wash,Online,2,4500.0,2300.0,0.05,Completed,9000.0,8550.0,4600.0,3950.0
+1277,TXN-01277,2025-11-18,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+1278,TXN-01278,2025-11-09,Lagos,Beauty,Body wash,In-store,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1279,TXN-01279,2025-11-01,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.1,Completed,22000.0,19800.0,13500.0,6300.0
+1280,TXN-01280,2025-11-21,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1281,TXN-01281,2025-11-19,Kano,Fashion,Sneakers,Online,2,28000.0,17500.0,0.1,Completed,56000.0,50400.0,35000.0,15400.0
+1282,TXN-01282,2025-11-25,Port Harcourt,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.15,Completed,26000.0,22100.0,17000.0,5100.0
+1283,TXN-01283,2025-11-12,Abuja,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1284,TXN-01284,2025-11-12,Abuja,Fashion,T-shirt,Online,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+1285,TXN-01285,2025-11-06,Lagos,Fashion,Sneakers,In-store,3,28000.0,17500.0,0.1,Completed,84000.0,75600.0,52500.0,23100.0
+1286,TXN-01286,2025-11-27,Abuja,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1287,TXN-01287,2025-11-11,Abuja,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1288,TXN-01288,2025-11-28,Port Harcourt,Beauty,Moisturizer,In-store,2,6500.0,3500.0,0.05,Completed,13000.0,12350.0,7000.0,5350.0
+1289,TXN-01289,2025-11-12,Abuja,Home,Desk lamp,Online,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+1290,TXN-01290,2025-11-10,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1291,TXN-01291,2025-11-14,Abuja,Beauty,Body wash,Online,2,4500.0,2300.0,0.0,Returned,9000.0,0,0,0
+1292,TXN-01292,2025-11-29,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1293,TXN-01293,2025-11-11,Abuja,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+1294,TXN-01294,2025-11-06,Lagos,Electronics,Power bank,Online,4,15000.0,9500.0,0.0,Completed,60000.0,60000.0,38000.0,22000.0
+1295,TXN-01295,2025-11-09,Abuja,Beauty,Body wash,In-store,3,4500.0,2300.0,0.0,Completed,13500.0,13500.0,6900.0,6600.0
+1296,TXN-01296,2025-11-18,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.05,Returned,52000.0,0,0,0
+1297,TXN-01297,2025-11-06,Abuja,Fashion,T-shirt,In-store,1,9000.0,5000.0,0.1,Completed,9000.0,8100.0,5000.0,3100.0
+1298,TXN-01298,2025-11-07,Lagos,Beauty,Body wash,Online,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+1299,TXN-01299,2025-11-26,Abuja,Electronics,Power bank,In-store,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+1300,TXN-01300,2025-11-10,Port Harcourt,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+1301,TXN-01301,2025-11-16,Abuja,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+1302,TXN-01302,2025-11-21,Port Harcourt,Electronics,Headphones,Online,2,18000.0,10500.0,0,Completed,36000.0,36000.0,21000.0,15000.0
+1303,TXN-01303,2025-11-27,Port Harcourt,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.05,Completed,6500.0,6175.0,3500.0,2675.0
+1304,TXN-01304,2025-11-03,Abuja,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+1305,TXN-01305,2025-11-19,Lagos,Electronics,Headphones,Online,2,18000.0,10500.0,0.1,Returned,36000.0,0,0,0
+1306,TXN-01306,2025-11-26,Lagos,Beauty,Perfume,In-store,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+1307,TXN-01307,2025-11-29,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1308,TXN-01308,2025-11-04,Lagos,Beauty,Perfume,In-store,2,17000.0,9000.0,0.1,Completed,34000.0,30600.0,18000.0,12600.0
+1309,TXN-01309,2025-11-22,Lagos,Home,Bedsheet,Online,4,14000.0,8500.0,0.0,Completed,56000.0,56000.0,34000.0,22000.0
+1310,TXN-01310,2025-11-21,Abuja,Fashion,T-shirt,Online,3,9000.0,5000.0,0.0,Completed,27000.0,27000.0,15000.0,12000.0
+1311,TXN-01311,2025-11-26,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Returned,22000.0,0,0,0
+1312,TXN-01312,2025-11-04,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.05,Returned,17000.0,0,0,0
+1313,TXN-01313,2025-11-15,Kano,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1314,TXN-01314,2025-11-15,Abuja,Home,Bedsheet,Online,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+1315,TXN-01315,2025-11-09,Abuja,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+1316,TXN-01316,2025-11-09,Port Harcourt,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1317,TXN-01317,2025-11-03,Abuja,Home,Desk lamp,In-store,2,12000.0,7200.0,0.1,Completed,24000.0,21600.0,14400.0,7200.0
+1318,TXN-01318,2025-11-15,Kano,Fashion,Sneakers,Online,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+1319,TXN-01319,2025-11-21,Abuja,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+1320,TXN-01320,2025-11-30,Port Harcourt,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+1321,TXN-01321,2025-11-09,Kano,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+1322,TXN-01322,2025-11-02,Port Harcourt,Beauty,Perfume,Online,4,17000.0,9000.0,0.05,Completed,68000.0,64600.0,36000.0,28600.0
+1323,TXN-01323,2025-11-18,Abuja,Fashion,T-shirt,In-store,3,9000.0,5000.0,0.1,Returned,27000.0,0,0,0
+1324,TXN-01324,2025-11-15,Port Harcourt,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+1325,TXN-01325,2025-11-16,Abuja,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+1326,TXN-01326,2025-11-13,Abuja,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Returned,56000.0,0,0,0
+1327,TXN-01327,2025-11-24,Port Harcourt,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1328,TXN-01328,2025-11-12,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.1,Completed,22000.0,19800.0,13500.0,6300.0
+1329,TXN-01329,2025-12-17,Abuja,Fashion,Handbag,Online,1,22000.0,13500.0,0.05,Completed,22000.0,20900.0,13500.0,7400.0
+1330,TXN-01330,2025-12-24,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.1,Completed,26000.0,23400.0,17000.0,6400.0
+1331,TXN-01331,2025-12-29,Lagos,Home,Bedsheet,In-store,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+1332,TXN-01332,2025-12-29,Unknown,Home,Bedsheet,Online,3,14000.0,8500.0,0.05,Completed,42000.0,39900.0,25500.0,14400.0
+1333,TXN-01333,2025-12-16,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Returned,18000.0,0,0,0
+1334,TXN-01334,2025-12-18,Abuja,Fashion,T-shirt,Online,2,9000.0,5000.0,0.05,Completed,18000.0,17100.0,10000.0,7100.0
+1335,TXN-01335,2025-12-17,Kano,Home,Bedsheet,In-store,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+1336,TXN-01336,2025-12-22,Port Harcourt,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+1337,TXN-01337,2025-12-24,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1338,TXN-01338,2025-12-18,Abuja,Beauty,Moisturizer,In-store,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+1339,TXN-01339,2025-12-19,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+1340,TXN-01340,2025-12-01,Kano,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.05,Completed,13000.0,12350.0,7000.0,5350.0
+1341,TXN-01341,2025-12-15,Lagos,Beauty,Body wash,Online,2,4500.0,2300.0,0.1,Completed,9000.0,8100.0,4600.0,3500.0
+1342,TXN-01342,2025-12-10,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.0,Returned,18000.0,0,0,0
+1343,TXN-01343,2025-12-20,Port Harcourt,Fashion,Sneakers,Online,2,28000.0,17500.0,0.1,Completed,56000.0,50400.0,35000.0,15400.0
+1344,TXN-01344,2025-12-03,Abuja,Beauty,Body wash,Online,3,4500.0,2300.0,0.15,Completed,13500.0,11475.0,6900.0,4575.0
+1345,TXN-01345,2025-12-07,Abuja,Beauty,Moisturizer,Online,3,6500.0,3500.0,0.0,Completed,19500.0,19500.0,10500.0,9000.0
+1346,TXN-01346,2025-12-21,Kano,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+1347,TXN-01347,2025-12-21,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Returned,9000.0,0,0,0
+1348,TXN-01348,2025-12-22,Abuja,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1349,TXN-01349,2025-12-25,Kano,Beauty,Body wash,Online,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+1350,TXN-01350,2025-12-29,Abuja,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+1351,TXN-01351,2025-12-31,Lagos,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+1352,TXN-01352,2025-12-29,Lagos,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+1353,TXN-01353,2025-12-16,Port Harcourt,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1354,TXN-01354,2025-12-13,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.1,Returned,9000.0,0,0,0
+1355,TXN-01355,2025-12-01,Lagos,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+1356,TXN-01356,2025-12-18,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.15,Completed,9000.0,7650.0,5000.0,2650.0
+1357,TXN-01357,2025-12-22,Abuja,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1358,TXN-01358,2025-12-21,Unknown,Fashion,T-shirt,In-store,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+1359,TXN-01359,2025-12-04,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+1360,TXN-01360,2025-12-06,Port Harcourt,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1361,TXN-01361,2025-12-18,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+1362,TXN-01362,2025-12-23,Lagos,Fashion,Handbag,Online,3,22000.0,13500.0,0.05,Completed,66000.0,62700.0,40500.0,22200.0
+1363,TXN-01363,2025-12-30,Abuja,Fashion,Handbag,Online,2,22000.0,13500.0,0.0,Completed,44000.0,44000.0,27000.0,17000.0
+1364,TXN-01364,2025-12-20,Abuja,Electronics,Headphones,Online,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+1365,TXN-01365,2025-12-31,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1366,TXN-01366,2025-12-18,Lagos,Electronics,Headphones,In-store,2,18000.0,10500.0,0.15,Completed,36000.0,30600.0,21000.0,9600.0
+1367,TXN-01367,2025-12-21,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1368,TXN-01368,2025-12-19,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1369,TXN-01369,2025-12-09,Port Harcourt,Home,Cookware set,In-store,2,35000.0,22500.0,0.05,Completed,70000.0,66500.0,45000.0,21500.0
+1370,TXN-01370,2025-12-13,Lagos,Fashion,Handbag,In-store,3,22000.0,13500.0,0.0,Completed,66000.0,66000.0,40500.0,25500.0
+1371,TXN-01371,2025-12-22,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.1,Completed,17000.0,15300.0,9000.0,6300.0
+1372,TXN-01372,2025-12-23,Port Harcourt,Home,Desk lamp,Online,3,12000.0,7200.0,0.0,Completed,36000.0,36000.0,21600.0,14400.0
+1373,TXN-01373,2025-12-27,Kano,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+1374,TXN-01374,2025-12-15,Lagos,Beauty,Perfume,In-store,3,17000.0,9000.0,0.05,Completed,51000.0,48450.0,27000.0,21450.0
+1375,TXN-01375,2025-12-06,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+1376,TXN-01376,2025-12-27,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0,Completed,30000.0,30000.0,19000.0,11000.0
+1377,TXN-01377,2025-12-14,Lagos,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+1378,TXN-01378,2025-12-22,Abuja,Electronics,Headphones,In-store,2,18000.0,10500.0,0.05,Completed,36000.0,34200.0,21000.0,13200.0
+1379,TXN-01379,2025-12-10,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1380,TXN-01380,2025-12-09,Port Harcourt,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1381,TXN-01381,2025-12-22,Lagos,Electronics,Bluetooth speaker,Online,3,26000.0,17000.0,0.15,Completed,78000.0,66300.0,51000.0,15300.0
+1382,TXN-01382,2025-12-15,Port Harcourt,Home,Desk lamp,In-store,1,12000.0,7200.0,0.0,Completed,12000.0,12000.0,7200.0,4800.0
+1383,TXN-01383,2025-12-08,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Completed,9000.0,9000.0,5000.0,4000.0
+1384,TXN-01384,2025-12-16,Port Harcourt,Electronics,Headphones,In-store,1,18000.0,10500.0,0.05,Completed,18000.0,17100.0,10500.0,6600.0
+1385,TXN-01385,2025-12-21,Port Harcourt,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Returned,52000.0,0,0,0
+1386,TXN-01386,2025-12-06,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1387,TXN-01387,2025-12-06,Lagos,Beauty,Body wash,In-store,2,4500.0,2300.0,0.0,Completed,9000.0,9000.0,4600.0,4400.0
+1388,TXN-01388,2025-12-07,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1389,TXN-01389,2025-12-07,Port Harcourt,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+1390,TXN-01390,2025-12-20,Port Harcourt,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1391,TXN-01391,2025-12-24,Port Harcourt,Home,Bedsheet,In-store,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+1392,TXN-01392,2025-12-11,Lagos,Electronics,Bluetooth speaker,Online,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+1393,TXN-01393,2025-12-21,Abuja,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.1,Returned,13000.0,0,0,0
+1394,TXN-01394,2025-12-26,Port Harcourt,Home,Bedsheet,Online,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+1395,TXN-01395,2025-12-05,Abuja,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Completed,30000.0,30000.0,19000.0,11000.0
+1396,TXN-01396,2025-12-13,Abuja,Electronics,Power bank,In-store,2,15000.0,9500.0,0.05,Completed,30000.0,28500.0,19000.0,9500.0
+1397,TXN-01397,2025-12-08,Abuja,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Returned,18000.0,0,0,0
+1398,TXN-01398,2025-12-09,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.0,Completed,26000.0,26000.0,17000.0,9000.0
+1399,TXN-01399,2025-12-02,Kano,Electronics,Headphones,In-store,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1400,TXN-01400,2025-12-09,Port Harcourt,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1401,TXN-01401,2025-12-18,Kano,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1402,TXN-01402,2025-12-24,Port Harcourt,Fashion,Sneakers,In-store,3,28000.0,17500.0,0.05,Completed,84000.0,79800.0,52500.0,27300.0
+1403,TXN-01403,2025-12-16,Lagos,Beauty,Perfume,Online,2,17000.0,9000.0,0.05,Completed,34000.0,32300.0,18000.0,14300.0
+1404,TXN-01404,2025-12-06,Abuja,Home,Bedsheet,In-store,3,14000.0,8500.0,0.0,Completed,42000.0,42000.0,25500.0,16500.0
+1405,TXN-01405,2025-12-06,Abuja,Home,Bedsheet,In-store,1,14000.0,8500.0,0.15,Completed,14000.0,11900.0,8500.0,3400.0
+1406,TXN-01406,2025-12-14,Kano,Home,Desk lamp,In-store,1,12000.0,7200.0,0.05,Returned,12000.0,0,0,0
+1407,TXN-01407,2025-12-24,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0,Completed,26000.0,26000.0,17000.0,9000.0
+1408,TXN-01408,2025-12-25,Lagos,Beauty,Perfume,Online,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+1409,TXN-01409,2025-12-09,Port Harcourt,Beauty,Perfume,In-store,1,17000.0,9000.0,0.15,Completed,17000.0,14450.0,9000.0,5450.0
+1410,TXN-01410,2025-12-17,Abuja,Home,Desk lamp,Online,2,12000.0,7200.0,0.0,Completed,24000.0,24000.0,14400.0,9600.0
+1411,TXN-01411,2025-12-10,Abuja,Home,Bedsheet,Online,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+1412,TXN-01412,2025-12-13,Abuja,Home,Bedsheet,Online,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+1413,TXN-01413,2025-12-31,Kano,Electronics,Power bank,In-store,3,15000.0,9500.0,0.1,Completed,45000.0,40500.0,28500.0,12000.0
+1414,TXN-01414,2025-12-20,Abuja,Home,Bedsheet,Online,2,14000.0,8500.0,0.15,Completed,28000.0,23800.0,17000.0,6800.0
+1415,TXN-01415,2025-12-26,Abuja,Fashion,T-shirt,Online,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+1416,TXN-01416,2025-12-01,Lagos,Electronics,Bluetooth speaker,In-store,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+1417,TXN-01417,2025-12-04,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Returned,28000.0,0,0,0
+1418,TXN-01418,2025-12-23,Port Harcourt,Fashion,T-shirt,Online,2,9000.0,5000.0,0,Completed,18000.0,18000.0,10000.0,8000.0
+1419,TXN-01419,2025-12-03,Abuja,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+1420,TXN-01420,2025-12-26,Abuja,Home,Cookware set,In-store,2,35000.0,22500.0,0.0,Completed,70000.0,70000.0,45000.0,25000.0
+1421,TXN-01421,2025-12-27,Abuja,Fashion,T-shirt,Online,3,9000.0,5000.0,0.0,Completed,27000.0,27000.0,15000.0,12000.0
+1422,TXN-01422,2025-12-31,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+1423,TXN-01423,2025-12-29,Abuja,Beauty,Perfume,Online,1,17000.0,9000.0,0.05,Completed,17000.0,16150.0,9000.0,7150.0
+1424,TXN-01424,2025-12-16,Lagos,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1425,TXN-01425,2025-12-07,Lagos,Electronics,Bluetooth speaker,Online,1,26000.0,17000.0,0.05,Completed,26000.0,24700.0,17000.0,7700.0
+1426,TXN-01426,2025-12-27,Port Harcourt,Home,Bedsheet,In-store,1,14000.0,8500.0,0.05,Completed,14000.0,13300.0,8500.0,4800.0
+1427,TXN-01427,2025-12-22,Lagos,Fashion,Handbag,In-store,1,22000.0,13500.0,0.0,Completed,22000.0,22000.0,13500.0,8500.0
+1428,TXN-01428,2025-12-02,Abuja,Fashion,Sneakers,Online,1,28000.0,17500.0,0.1,Completed,28000.0,25200.0,17500.0,7700.0
+1429,TXN-01429,2025-12-15,Lagos,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+1430,TXN-01430,2025-12-02,Lagos,Electronics,Headphones,Online,3,18000.0,10500.0,0.0,Completed,54000.0,54000.0,31500.0,22500.0
+1431,TXN-01431,2025-12-08,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+1432,TXN-01432,2025-12-02,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1433,TXN-01433,2025-12-22,Lagos,Fashion,T-shirt,Online,4,9000.0,5000.0,0.15,Completed,36000.0,30600.0,20000.0,10600.0
+1434,TXN-01434,2025-12-16,Kano,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+1435,TXN-01435,2025-12-15,Lagos,Home,Bedsheet,Online,2,14000.0,8500.0,0.1,Completed,28000.0,25200.0,17000.0,8200.0
+1436,TXN-01436,2025-12-02,Lagos,Beauty,Perfume,In-store,4,17000.0,9000.0,0.05,Completed,68000.0,64600.0,36000.0,28600.0
+1437,TXN-01437,2025-12-17,Lagos,Electronics,Power bank,In-store,2,15000.0,9500.0,0.05,Completed,30000.0,28500.0,19000.0,9500.0
+1438,TXN-01438,2025-12-13,Port Harcourt,Home,Cookware set,Online,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+1439,TXN-01439,2025-12-17,Kano,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+1440,TXN-01440,2025-12-18,Lagos,Beauty,Body wash,Online,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+1441,TXN-01441,2025-12-23,Kano,Fashion,Sneakers,Online,1,28000.0,17500.0,0.1,Returned,28000.0,0,0,0
+1442,TXN-01442,2025-12-22,Kano,Fashion,T-shirt,Online,1,9000.0,5000.0,0.0,Returned,9000.0,0,0,0
+1443,TXN-01443,2025-12-08,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1444,TXN-01444,2025-12-29,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+1445,TXN-01445,2025-12-27,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.1,Completed,6500.0,5850.0,3500.0,2350.0
+1446,TXN-01446,2025-12-06,Lagos,Beauty,Moisturizer,Online,3,6500.0,3500.0,0.05,Completed,19500.0,18525.0,10500.0,8025.0
+1447,TXN-01447,2025-12-19,Kano,Fashion,Sneakers,In-store,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+1448,TXN-01448,2025-12-21,Abuja,Electronics,Power bank,In-store,1,15000.0,9500.0,0.1,Completed,15000.0,13500.0,9500.0,4000.0
+1449,TXN-01449,2025-12-29,Kano,Electronics,Power bank,Online,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1450,TXN-01450,2025-12-24,Lagos,Home,Desk lamp,In-store,1,12000.0,7200.0,0.05,Completed,12000.0,11400.0,7200.0,4200.0
+1451,TXN-01451,2025-12-03,Lagos,Fashion,Handbag,Online,1,22000.0,13500.0,0.0,Returned,22000.0,0,0,0
+1452,TXN-01452,2025-12-23,Lagos,Fashion,Sneakers,Online,2,28000.0,17500.0,0.0,Completed,56000.0,56000.0,35000.0,21000.0
+1453,TXN-01453,2025-12-11,Lagos,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1454,TXN-01454,2025-12-07,Lagos,Fashion,Sneakers,Online,1,28000.0,17500.0,0.05,Completed,28000.0,26600.0,17500.0,9100.0
+1455,TXN-01455,2025-12-13,Port Harcourt,Beauty,Body wash,In-store,2,4500.0,2300.0,0.1,Completed,9000.0,8100.0,4600.0,3500.0
+1456,TXN-01456,2025-12-24,Port Harcourt,Beauty,Moisturizer,Online,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1457,TXN-01457,2025-12-10,Lagos,Electronics,Power bank,Online,1,15000.0,9500.0,0.05,Completed,15000.0,14250.0,9500.0,4750.0
+1458,TXN-01458,2025-12-03,Abuja,Electronics,Power bank,Online,1,15000.0,9500.0,0.15,Completed,15000.0,12750.0,9500.0,3250.0
+1459,TXN-01459,2025-12-07,Lagos,Electronics,Headphones,Online,2,18000.0,10500.0,0.0,Completed,36000.0,36000.0,21000.0,15000.0
+1460,TXN-01460,2025-12-10,Abuja,Home,Cookware set,Online,2,35000.0,22500.0,0.0,Completed,70000.0,70000.0,45000.0,25000.0
+1461,TXN-01461,2025-12-01,Lagos,Home,Cookware set,In-store,1,35000.0,22500.0,0.0,Completed,35000.0,35000.0,22500.0,12500.0
+1462,TXN-01462,2025-12-17,Lagos,Beauty,Perfume,In-store,3,17000.0,9000.0,0.1,Completed,51000.0,45900.0,27000.0,18900.0
+1463,TXN-01463,2025-12-22,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1464,TXN-01464,2025-12-26,Abuja,Home,Bedsheet,In-store,4,14000.0,8500.0,0.1,Completed,56000.0,50400.0,34000.0,16400.0
+1465,TXN-01465,2025-12-11,Kano,Beauty,Perfume,Online,2,17000.0,9000.0,0.0,Completed,34000.0,34000.0,18000.0,16000.0
+1466,TXN-01466,2025-12-09,Abuja,Fashion,T-shirt,Online,3,9000.0,5000.0,0.0,Completed,27000.0,27000.0,15000.0,12000.0
+1467,TXN-01467,2025-12-29,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1468,TXN-01468,2025-12-23,Lagos,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0
+1469,TXN-01469,2025-12-29,Lagos,Electronics,Bluetooth speaker,In-store,3,26000.0,17000.0,0.0,Completed,78000.0,78000.0,51000.0,27000.0
+1470,TXN-01470,2025-12-20,Abuja,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0.0,Completed,6500.0,6500.0,3500.0,3000.0
+1471,TXN-01471,2025-12-07,Kano,Fashion,Sneakers,In-store,1,28000.0,17500.0,0.1,Returned,28000.0,0,0,0
+1472,TXN-01472,2025-12-07,Lagos,Fashion,T-shirt,Online,1,9000.0,5000.0,0.05,Completed,9000.0,8550.0,5000.0,3550.0
+1473,TXN-01473,2025-12-14,Abuja,Electronics,Headphones,In-store,1,18000.0,10500.0,0.0,Completed,18000.0,18000.0,10500.0,7500.0
+1474,TXN-01474,2025-12-25,Port Harcourt,Electronics,Power bank,In-store,1,15000.0,9500.0,0.0,Completed,15000.0,15000.0,9500.0,5500.0
+1475,TXN-01475,2025-12-11,Lagos,Electronics,Headphones,Online,1,18000.0,10500.0,0.15,Completed,18000.0,15300.0,10500.0,4800.0
+1476,TXN-01476,2025-12-20,Abuja,Electronics,Bluetooth speaker,In-store,2,26000.0,17000.0,0.0,Completed,52000.0,52000.0,34000.0,18000.0
+1477,TXN-01477,2025-12-23,Kano,Fashion,Sneakers,Online,2,28000.0,17500.0,0.05,Completed,56000.0,53200.0,35000.0,18200.0
+1478,TXN-01478,2025-12-06,Port Harcourt,Home,Bedsheet,In-store,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+1479,TXN-01479,2025-12-06,Lagos,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1480,TXN-01480,2025-12-11,Abuja,Home,Cookware set,In-store,1,35000.0,22500.0,0.1,Completed,35000.0,31500.0,22500.0,9000.0
+1481,TXN-01481,2025-12-18,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.0,Returned,30000.0,0,0,0
+1482,TXN-01482,2025-12-21,Kano,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.05,Completed,13000.0,12350.0,7000.0,5350.0
+1483,TXN-01483,2025-12-21,Kano,Beauty,Body wash,Online,1,4500.0,2300.0,0.0,Completed,4500.0,4500.0,2300.0,2200.0
+1484,TXN-01484,2025-12-28,Abuja,Home,Desk lamp,In-store,3,12000.0,7200.0,0.05,Completed,36000.0,34200.0,21600.0,12600.0
+1485,TXN-01485,2025-12-17,Lagos,Electronics,Headphones,In-store,1,18000.0,10500.0,0.1,Completed,18000.0,16200.0,10500.0,5700.0
+1486,TXN-01486,2025-12-04,Lagos,Fashion,Handbag,Online,3,22000.0,13500.0,0.0,Completed,66000.0,66000.0,40500.0,25500.0
+1487,TXN-01487,2025-12-30,Abuja,Beauty,Perfume,In-store,1,17000.0,9000.0,0.0,Completed,17000.0,17000.0,9000.0,8000.0
+1488,TXN-01488,2025-12-05,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.1,Returned,14000.0,0,0,0
+1489,TXN-01489,2025-12-23,Port Harcourt,Home,Bedsheet,In-store,1,14000.0,8500.0,0.0,Completed,14000.0,14000.0,8500.0,5500.0
+1490,TXN-01490,2025-12-19,Lagos,Home,Bedsheet,Online,1,14000.0,8500.0,0.1,Completed,14000.0,12600.0,8500.0,4100.0
+1491,TXN-01491,2025-12-14,Lagos,Fashion,T-shirt,Online,2,9000.0,5000.0,0.0,Completed,18000.0,18000.0,10000.0,8000.0
+1492,TXN-01492,2025-12-28,Abuja,Home,Cookware set,In-store,2,35000.0,22500.0,0.0,Completed,70000.0,70000.0,45000.0,25000.0
+1493,TXN-01493,2025-12-28,Lagos,Beauty,Moisturizer,In-store,1,6500.0,3500.0,0,Completed,6500.0,6500.0,3500.0,3000.0
+1494,TXN-01494,2025-12-03,Lagos,Home,Desk lamp,Online,1,12000.0,7200.0,0.05,Completed,12000.0,11400.0,7200.0,4200.0
+1495,TXN-01495,2025-12-11,Port Harcourt,Beauty,Body wash,In-store,1,4500.0,2300.0,0.05,Completed,4500.0,4275.0,2300.0,1975.0
+1496,TXN-01496,2025-12-31,Port Harcourt,Fashion,Sneakers,Online,1,28000.0,17500.0,0.0,Completed,28000.0,28000.0,17500.0,10500.0
+1497,TXN-01497,2025-12-17,Lagos,Beauty,Body wash,In-store,2,4500.0,2300.0,0.05,Completed,9000.0,8550.0,4600.0,3950.0
+1498,TXN-01498,2025-12-13,Lagos,Electronics,Power bank,Online,2,15000.0,9500.0,0.05,Completed,30000.0,28500.0,19000.0,9500.0
+1499,TXN-01499,2025-12-04,Kano,Beauty,Perfume,Online,2,17000.0,9000.0,0.1,Completed,34000.0,30600.0,18000.0,12600.0
+1500,TXN-01500,2025-12-13,Lagos,Beauty,Moisturizer,Online,2,6500.0,3500.0,0.0,Completed,13000.0,13000.0,7000.0,6000.0

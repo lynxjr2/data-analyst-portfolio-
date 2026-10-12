@@ -1,0 +1,7 @@
+{
+  "name": "Retail Portfolio",
+  "dataColors": ["#163C35", "#76977D", "#9CAB77", "#C5D5B5", "#7F918B", "#BD9669"],
+  "background": "#F6F6EF",
+  "foreground": "#163C35",
+  "tableAccent": "#76977D"
+}
